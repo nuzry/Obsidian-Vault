@@ -29,3 +29,6 @@ Terraform allows you to develop infrastructure as code. Mostly used for infrastr
 - The use of state. (Track resources and changes that are done to the infrastructure for developers to track. )
 - The use of version controlling.
 
+![[Pasted image 20260712214152.png]]
+
+The above picture show the basic commands of the 

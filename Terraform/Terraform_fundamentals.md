@@ -56,11 +56,11 @@ terraform {
     }
   }
 
-In the above lines of code it says terraform which cloud provider is used for infrastructure creation with its source, the 
-
   required_version = ">= 1.2.0"
 }
 
+
+""
 provider "aws" {
   region = "us-east-2"
 }

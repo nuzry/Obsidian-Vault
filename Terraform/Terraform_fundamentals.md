@@ -37,7 +37,7 @@ The above picture show the basic commands of the terraform.
 
 #### Main Commands
 
-##### init - initializing terraform in a DIR.
+#init - initializing terraform in a DIR.
 #validate - Checking the configuration is valid.
 #plan - show changes that need for the current changes.
 #apply - create or update infrastructure (pushing).
@@ -56,6 +56,8 @@ terraform {
     }
   }
 
+In the above lines of code it 
+
   required_version = ">= 1.2.0"
 }
 
@@ -73,5 +75,6 @@ resource "aws_instance" "lesson_03" {
   }
 }
 ```
- 1. Initialize terraform init
- 2. Apply terraform apply
+
+ 2. Initialize terraform init
+ 3. Apply terraform apply

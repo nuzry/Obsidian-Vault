@@ -3,7 +3,6 @@
 Terraform allows you to develop infrastructure as code. Mostly used for infrastructure on AWS
 ([https://github.com/deveprowse/tac-course](https://github.com/deveprowse/tac-course))
 
-![[Pasted image 20260712203443.png]]
 #### What is Iac (Infrastructure as code)
 
  - IaC is the code used to provision resources including
@@ -26,5 +25,5 @@ Terraform allows you to develop infrastructure as code. Mostly used for infrastr
 - Its quick and efficient.
 - Works with multiple clouds (azure, AWS, Google Cloud etc.)
 - Easy to read (tf uses HCL code to write but it does not allow user defined functions.)
-- 
+- The use of state ()
 

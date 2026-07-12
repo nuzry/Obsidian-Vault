@@ -38,3 +38,5 @@ The above picture show the basic commands of the terraform.
 ##### init - initializing terraform in a DIR.
 ##### validate - Checking the configuration is valid
 ##### plan - show changes that need for the current changes
+##### apply - create or update infrastructure (pushing)
+##### destroy - Destroy already created infrastruc

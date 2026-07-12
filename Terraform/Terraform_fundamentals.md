@@ -23,6 +23,7 @@ Terraform allows you to develop infrastructure as code. Mostly used for infrastr
 **More**: Easily re-creatable systems, repeatable processes, disposable systems, design is always changing, generic modules.
 
 #### Why use Terraform
-
- -- 
+ - Its quick and efficient.
+	 - Works with multiple clouds (azure, AWS, Google Cloud etc.)
+	 - 
 

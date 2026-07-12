@@ -36,4 +36,5 @@ Terraform allows you to develop infrastructure as code. Mostly used for infrastr
 The above picture show the basic commands of the terraform.
 
 ##### init - initializing terraform in a DIR.
-##### VALIDATE - Check
+##### validate - Checking the configuration is valid
+##### plan - show changes that need for the current changes

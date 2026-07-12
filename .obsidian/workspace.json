@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "94f63890cd08890e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ffd8b1122885a68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d04b53f8e2d676a2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5393a447c464d71f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f28459b7ef1ff11",
+        "type": "tabs",
+        "dimension": 80.11928429423459,
+        "children": [
+          {
+            "id": "e3dfd6ded53f02c0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "67e352e39aa6cf4d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2190f2bc4f63fc76",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "242cd696e429a53d",
+        "type": "tabs",
+        "dimension": 19.880715705765407,
+        "children": [
+          {
+            "id": "5cbc457668f4b9b1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e21df28490eb1e4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "12caaea710314485",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f446ab3f681c6856",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Terraform/Terraform_fundamentals.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Terraform_fundamentals"
+            }
+          },
+          {
+            "id": "1580b6f6a4aeb1f2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Terraform/Terraform_fundas.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Terraform_fundas"
+            }
+          },
+          {
+            "id": "a9fc00064f887108",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "71208264abbb63a8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "988630c9bcf6063b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Terraform/Terraform_fundas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Terraform_fundas"
+            }
+          },
+          {
+            "id": "cdba416dff38557b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "e3dfd6ded53f02c0",
+  "lastOpenFiles": [
+    "Terraform/Terraform_fundamentals.md",
+    "Terraform",
+    "Untitled.md",
+    "Notes/Terraform/Terraform_fundamentals.md",
+    "Pasted image 20260712185044.png",
+    "Pasted image 20260712185043.png",
+    "Pasted image 20260712185024.png",
+    "Untitled.canvas",
+    "Pasted image 20260712184952.png",
+    "Pasted image 20260712184925.png",
+    "Pasted image 20260712184835.png",
+    "Pasted image 20260712184845.png",
+    "Pasted image 20260712184839.png",
+    "Notes/Terraform/This is the second note.md",
+    "Notes/sample/README.md",
+    "2026-07-12.md",
+    "sample fo.md",
+    "Notes/sample",
+    "Notes/Terraform",
+    "Notes",
+    "Terraform/Terraform_fundas.md"
+  ]
+}

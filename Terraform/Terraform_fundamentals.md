@@ -1,0 +1,24 @@
+#### What is Terraform?
+
+Terraform allows you to develop infrastructure as code. Mostly used for infrastructure on AWS
+([https://github.com/deveprowse/tac-course](https://github.com/deveprowse/tac-course))
+
+#### What is Iac (Infrastructure as code)
+
+ - IaC is the code used to provision resources including
+     - VMs
+     - Network infrastructure
+     - Security Groups
+     - Users
+     - more..
+
+    IaC gives consistency, Reliable and Repeatable
+  
+#### IaC core Principles
+
+- Versioned infrastructure: Multiple version of code that should be under source control (git).
+- Idempotence: Consistency, no matter how many time it is run (one .tf can run as much as you want).
+- Self-describing infrastructure: The infrastructure is the code and can be understood by peeps easy.
+**More**: Easily re-creatable systems, repeatable processes, disposable systems, design is always changing, generic modules.
+
+

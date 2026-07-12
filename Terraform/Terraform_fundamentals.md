@@ -42,3 +42,8 @@ The above picture show the basic commands of the terraform.
 ##### plan - show changes that need for the current changes.
 ##### apply - create or update infrastructure (pushing).
 ##### destroy - Destroy already created infrastructure.
+
+#### How Terraform Works?
+
+Terraform allows us to:
+ 1. 

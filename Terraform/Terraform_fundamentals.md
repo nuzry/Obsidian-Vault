@@ -58,18 +58,22 @@ terraform {
 
   required_version = ">= 1.2.0"
 }
-
-
-""
+```
+In the above lines of code it says terraform, which cloud provider is used for infrastructure creation with its source, the HCL. with what version and stuff""
+```
 provider "aws" {
   region = "us-east-2"
 }
+```
 
+```
 resource "aws_instance" "lesson_03" {
   ami           = "ami-0c7c4e3c6b4941f0f"
   instance_type = "t2.micro"
   # Note: Change this to t3.micro if you created your AWS account after July 15th, 2025. Then, you can take advantage of free tier hours.
+```
 
+```
   tags = {
     Name = "Lesson-03-AWS-Instance"
   }

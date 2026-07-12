@@ -84,6 +84,7 @@ resource "aws_instance" "lesson_03" {
 Now we are trying to create a resource in AWS using "aws instance" as the name being "lesson_03" 
 It has 2 values 
 - ami => Refers to the os and software installed on the instance
+- instance_type => defines the size of the hardware instance.
 
  2. Initialize terraform init
  3. Apply terraform apply

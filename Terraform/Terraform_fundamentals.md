@@ -47,4 +47,6 @@ The above picture show the basic commands of the terraform.
 
 Terraform allows us to:
  1. Write the code for infrastructure creation.
+
  2. Initialize terraform init
+ 3. Apply terraform apply

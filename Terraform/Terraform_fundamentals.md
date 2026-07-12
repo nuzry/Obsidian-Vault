@@ -91,3 +91,4 @@ It has 2 values
 
 #### Terraform workflow
 Terraform has 3 steps for the workflow
+#write - Code your terraform file in any DIR and initialize 

@@ -35,8 +35,10 @@ Terraform allows you to develop infrastructure as code. Mostly used for infrastr
 
 The above picture show the basic commands of the terraform.
 
+#### Main Commands
+
 ##### init - initializing terraform in a DIR.
-##### validate - Checking the configuration is valid
-##### plan - show changes that need for the current changes
-##### apply - create or update infrastructure (pushing)
-##### destroy - Destroy already created infrastruc
+##### validate - Checking the configuration is valid.
+##### plan - show changes that need for the current changes.
+##### apply - create or update infrastructure (pushing).
+##### destroy - Destroy already created infrastructure.

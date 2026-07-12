@@ -59,12 +59,13 @@ terraform {
   required_version = ">= 1.2.0"
 }
 ```
-In the above lines of code it says terraform, which cloud provider is used for infrastructure creation with its source, the HCL. with what version and stuff""
+In the above lines of code it says terraform, which cloud provider is used for infrastructure creation with its source, the HCL(HashiCorp Configuration Language). with what version and stuff""
 ```
 provider "aws" {
   region = "us-east-2"
 }
 ```
+In the above lines it says the in the aws provider which region to be used
 
 ```
 resource "aws_instance" "lesson_03" {

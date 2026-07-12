@@ -60,12 +60,13 @@ terraform {
 }
 ```
 In the above lines of code it says terraform, which cloud provider is used for infrastructure creation with its source, the HCL(HashiCorp Configuration Language). with what version and stuff""
+
 ```
 provider "aws" {
   region = "us-east-2"
 }
 ```
-In the above lines it says the in the aws provider which region to be used
+In the above lines it says the in the AWS provider which region to be used
 
 ```
 resource "aws_instance" "lesson_03" {
@@ -73,6 +74,7 @@ resource "aws_instance" "lesson_03" {
   instance_type = "t2.micro"
   # Note: Change this to t3.micro if you created your AWS account after July 15th, 2025. Then, you can take advantage of free tier hours.
 ```
+Now we are trying to create a resource in AWS using aws instance 
 
 ```
   tags = {

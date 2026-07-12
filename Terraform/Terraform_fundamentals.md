@@ -25,6 +25,6 @@ Terraform allows you to develop infrastructure as code. Mostly used for infrastr
 #### Why use Terraform
 - Its quick and efficient.
 - Works with multiple clouds (azure, AWS, Google Cloud etc.)
-- Easy to read (tf uses HCL code to write but it does not allow user defined functions.)
-- The use of state (It uses )
+- Easy to read (.tf uses HCL code to write but it does not allow user defined functions.)
+- The use of version controlling.
 

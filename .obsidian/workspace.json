@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "this is a new folder/Untitled.md",
+                "file": "this is a new folder/this is teh new file in the new folder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "this is teh new file in the new folder"
             }
           }
         ]
@@ -212,10 +212,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3dfd6ded53f02c0",
+  "active": "d04b53f8e2d676a2",
   "lastOpenFiles": [
     "README.md",
-    "this is a new folder/Untitled.md",
+    "this is a new folder/this is teh new file in the new folder.md",
     "this is a new folder",
     "Terraform/Terraform_fundamentals.md",
     "Terraform",

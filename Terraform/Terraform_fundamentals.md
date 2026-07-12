@@ -47,6 +47,31 @@ The above picture show the basic commands of the terraform.
 
 Terraform allows us to:
  1. Write the code for infrastructure creation.
+```
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+  }
 
- 2. Initialize terraform init
- 3. Apply terraform apply
+  required_version = ">= 1.2.0"
+}
+
+provider "aws" {
+  region = "us-east-2"
+}
+
+resource "aws_instance" "lesson_03" {
+  ami           = "ami-0c7c4e3c6b4941f0f"
+  instance_type = "t2.micro"
+  # Note: Change this to t3.micro if you created your AWS account after July 15th, 2025. Then, you can take advantage of free tier hours.
+
+  tags = {
+    Name = "Lesson-03-AWS-Instance"
+  }
+}
+```
+ 1. Initialize terraform init
+ 2. Apply terraform apply

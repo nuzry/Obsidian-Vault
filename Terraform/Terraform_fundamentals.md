@@ -74,7 +74,8 @@ resource "aws_instance" "lesson_03" {
   instance_type = "t2.micro"
   # Note: Change this to t3.micro if you created your AWS account after July 15th, 2025. Then, you can take advantage of free tier hours.
 ```
-Now we are trying to create a resource in AWS using aws instance 
+Now we are trying to create a resource in AWS using "aws instance" as the name being "lesson_03" 
+It has 2 values 
 
 ```
   tags = {

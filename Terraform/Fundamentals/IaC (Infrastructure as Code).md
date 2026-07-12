@@ -15,3 +15,10 @@
 - Idempotence: Consistency, no matter how many time it is run (one .tf can run as much as you want).
 - Self-describing infrastructure: The infrastructure is the code and can be understood by peeps easy.
 **More**: Easily re-creatable systems, repeatable processes, disposable systems, design is always changing, generic modules.
+
+#### Why use Terraform
+- Its quick and efficient.
+- Works with multiple clouds (azure, AWS, Google Cloud etc.)
+- Easy to read (.tf uses HCL code to write but it does not allow user defined functions.)
+- The use of state. (Track resources and changes that are done to the infrastructure for developers to track. )
+- The use of version controlling.

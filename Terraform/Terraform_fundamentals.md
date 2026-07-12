@@ -31,7 +31,7 @@ Terraform allows you to develop infrastructure as code. Mostly used for infrastr
 
 #### Terraform basic commands
 
-![[Pasted image 20260712214152.png]]
+![[Pasted image 20260712231523.png]]
 
 The above picture show the basic commands of the terraform.
 

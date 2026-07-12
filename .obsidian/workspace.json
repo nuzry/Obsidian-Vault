@@ -11,10 +11,14 @@
             "id": "d04b53f8e2d676a2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "this is a new folder/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -210,9 +214,11 @@
   },
   "active": "e3dfd6ded53f02c0",
   "lastOpenFiles": [
+    "README.md",
+    "this is a new folder/Untitled.md",
+    "this is a new folder",
     "Terraform/Terraform_fundamentals.md",
     "Terraform",
-    "Untitled.md",
     "Notes/Terraform/Terraform_fundamentals.md",
     "Pasted image 20260712185044.png",
     "Pasted image 20260712185043.png",

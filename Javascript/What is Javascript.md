@@ -14,8 +14,11 @@
 - Javascript can be used to develop Desktop applications too '*ElectronJS'
 
 
-| Name | type | usecase |
-| ---- | ---- | ------- |
-|      |      |         |
+| Name        | type | usecase |
+| ----------- | ---- | ------- |
+| **React**   |      | web-f   |
+| **Angular** |      |         |
+| **jQuery**  |      |         |
+| **View**    |      |         |
 
 

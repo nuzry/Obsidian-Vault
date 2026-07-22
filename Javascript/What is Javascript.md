@@ -9,7 +9,7 @@
 - *NoSQL* databases are popular in javascript development, allows to store *Js Objects* (*MongoDB*)
 
 
-### F
+### Table of React Libraries and frameworks 
 
 | Name             | type      | usecase         |
 | ---------------- | --------- | --------------- |

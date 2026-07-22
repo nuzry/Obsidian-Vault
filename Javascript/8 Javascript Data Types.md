@@ -69,8 +69,12 @@
 ```
 	let person = {
 		name: "nusry",
-		age: 
+		age: 21,
+		eyeColor: "brown"
 	}
+	
+	//accessing properties in side an object
+	
 ```
 
 5. Functions

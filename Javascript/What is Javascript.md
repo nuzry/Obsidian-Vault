@@ -19,7 +19,8 @@
 | **React**        | Library   | web-frontend    |
 | **Angular**      | Framework | web-frontend    |
 | **jQuery**       | Framework | web-frontend    |
-| **View**         | Framework | web-frontend    |
+| **Vue.js**       | Framework | web-frontend    |
+| **Svelte**       |           |                 |
 | **Node.js**      | Framework | server-side dev |
 | **React-Native** | Library   |                 |
 |                  |           |                 |

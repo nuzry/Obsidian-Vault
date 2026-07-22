@@ -14,13 +14,13 @@
 - Javascript can be used to develop Desktop applications too '*ElectronJS'
 
 
-| Name        | type      | usecase      |
-| ----------- | --------- | ------------ |
-| **React**   | Framework | web-frontend |
-| **Angular** | Framework | web-frontend |
-| **jQuery**  | Framework | web-frontend |
-| **View**    | Framework | web-frontend |
-| **Nod**     |           |              |
-|             |           |              |
+| Name             | type      | usecase         |
+| ---------------- | --------- | --------------- |
+| **React**        | Framework | web-frontend    |
+| **Angular**      | Framework | web-frontend    |
+| **jQuery**       | Framework | web-frontend    |
+| **View**         | Framework | web-frontend    |
+| **Node.js**      | Framework | server-side dev |
+| **React-Native** | Library   |                 |
 
 

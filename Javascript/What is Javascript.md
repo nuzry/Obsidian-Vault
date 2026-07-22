@@ -69,4 +69,10 @@ let x = 5;
 let x = 5	
 
 //semi-colons
+let obj = {a:1, b:2, c:3}
+let obj = {
+	a: 1,
+	b: 2,
+	c
+}
 ```

@@ -2,6 +2,7 @@
 ### Facts about Js
 
 - Js first used to develop client side code (frontend).
+- Js used to develop web-apps, desktop
 - Now Js can be used to develop server-side development too.
 - Frameworks were built to ease the development process for the developers
 - *React*, *Angular*, *jQuery*, *View* are some fronted frameworks.
@@ -10,5 +11,6 @@
 - *npm* is code sharable library among developers (pre-built)
 - *NoSQL* databases are popular in javascript development, allows to store *Js Objects* (*MongoDB*)
 - Javascript can be used to develop mobile applications as well '*React-Native*'.
-- Javascript can be used to develop Desktop applications too '*Electron'
+- Javascript can be used to develop Desktop applications too '*ElectronJS'
+- 
 

@@ -125,7 +125,8 @@ user2  ─────┘                     user2  ─────┘
 	myArray.pop() --> removes the last element from the array
 	myArray.indexOf(2) -->shows the index number where the number 2 exist in array
 	myArray.map(x => x+1) --> [2, 3, 4, 5, 6, 7, 8]
-	myArray.filter(x => x < 4) []
+	myArray.filter(x => x < 4) [5, 6, 7]
+	myArray.sort() --> [1, 2, 3, 4, 5, 6, 7]
 ```
 5. Functions
 6. Undefined

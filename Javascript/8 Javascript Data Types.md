@@ -91,9 +91,9 @@ user1  ─────┐                     user1  ─────┐
             │                                 │
             ▼                                 ▼
         ┌───────────┐                     ┌───────────┐
-        │  Object   │                     │  Object   │
+        │  Object   │      -->>>          │  Object   │
         │ name:John │   name changed      │ name:Alex │
-        │ age:25    │        same             │ age:25    │
+        │ age:25    │   same refernce     │ age:25    │
         └───────────┘                     └───────────┘
             ▲                                 ▲
             │                                 │

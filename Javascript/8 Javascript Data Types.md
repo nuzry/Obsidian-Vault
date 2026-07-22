@@ -42,7 +42,8 @@
   - Usage of escape character.
 ```
 	let question = ""How do I use quotes?" she asked" --> wrong
-	let question = ""
+	let question = "\"How do I use quotes?\"she asked" --> correct
+	
 ```
 1. Booleans
 2. Objects

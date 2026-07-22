@@ -151,7 +151,13 @@ user2  ─────┘                     user2  ─────┘
 	  let number;  //declared variable but not defined value
 	  typeof(number)  //undefined
 	  let person = {name: "nusry"}
-	  typeof(person.age) //undefined since it doesnt exist
+	  typeof(person.age) //undefined since it doesnt exist.
+	  let array = [1,2,3,4,5]
+	  typeof(array[10]) //undefined value doesn't exist
+	  
+	  BUT
+	  
+	  
 	  
   ```
 5. Bigints

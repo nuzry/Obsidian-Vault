@@ -2,9 +2,9 @@
 ### Facts about Js
 
 - Js can be used to develop *web-apps*, *desktop apps* and *mobile apps*.
--  Js can be used to develop *server-side* development too.
-- Frameworks were built to ease the development process for the developers
-- Some developers still use just Javascript, it is name as '*Vanilla Javascript*'.
+- Js can be used to develop *client-side* and *server-side* development.
+- *Frameworks* were built to ease the development process for the developers.
+- Some developers still use just Javascript, it is named as '*Vanilla Javascript*'.
 - *npm* is code sharable library among developers (pre-built)
 - *NoSQL* databases are popular in javascript development, allows to store *Js Objects* (*MongoDB*)
 - Javascript can be used to develop mobile applications as well '*React-Native*'.

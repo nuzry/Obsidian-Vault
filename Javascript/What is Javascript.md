@@ -64,8 +64,9 @@
 
 **Statement in JS**
 ```
-//both ways mentioned belw is correct
+//both ways mentioned belw are correct
 let x = 5;    
 let x = 5	
 
+//semi-colons
 ```

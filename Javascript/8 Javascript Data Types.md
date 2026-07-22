@@ -46,9 +46,13 @@
 	let question = '"How do I use quotes?"she asked' --> correct
 	
 	//other escape characters use cases
-	let nextLine = "first line \nsecond line"
-	/**/
+	let nextLine = "first line\nsecond line"
+	/*
+		first line
+		second line
+	*/
 ```
+  - String concatenation
 1. Booleans
 2. Objects
 3. Functions

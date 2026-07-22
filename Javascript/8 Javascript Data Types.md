@@ -2,7 +2,7 @@
 - var - function-scoped variables are defined
 - let - block-scoped variables are defined
 - const - when assigned a value can not change anymore.
-**mostly let and const are used while defining variables in js**
+**mostly let and const are used while defining variables in Js**
 
 #### The 8's in JS
 
@@ -13,17 +13,13 @@
   - binary numbers - `let binary = 0b101010`
   - octal numbers - `let octal = 0o52`
   - large numbers(scientific notations) - `let sixtyMillion = 6e7`
-  - *NaN* is not a number where when one number and any other type is used as operands 
-	  `let answer = 10 * "oops" -
-2`
-
-
-3. Strings
-4. Booleans
-5. Objects
-6. Functions
-7. Undefined
-8. Bigints
-9. Symbols
+  - *NaN* is not a number where when one number and any other type is used as operands `let answer = 10 * "oops" --> NaN`
+1. Strings
+2. Booleans
+3. Objects
+4. Functions
+5. Undefined
+6. Bigints
+7. Symbols
 
 

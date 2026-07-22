@@ -109,6 +109,8 @@ user2  ─────┘                     user2  ─────┘
 	
 	myObject.name --> changed!
 ```
+  - 
+
 5. Functions
 6. Undefined
 7. Bigints

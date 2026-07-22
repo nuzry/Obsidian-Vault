@@ -99,7 +99,10 @@ user1  ─────┐                     user1  ─────┐
             │                                 │
 user2  ─────┘                     user2  ─────┘  
 ```
-  
+  - If a function changes an object's body inside the function that change affects for the outside as well.
+```
+	f
+```
 5. Functions
 6. Undefined
 7. Bigints

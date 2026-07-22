@@ -44,4 +44,5 @@
 
 - Browser support concern only some browser has problem and others don't
 - Security Concens - source code is used by the browser to render so client can access source code.
-- 
+- Third party code can make our code vulnerable -*npm*.
+- Paradoxical beha

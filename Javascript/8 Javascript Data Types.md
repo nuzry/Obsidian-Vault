@@ -80,9 +80,10 @@
 	   console.log(person["name"])
 	   
 	//changing values of the object
-	person.name = "Nusry H"
+	person.name = "Nusry Hamza"
+	person["name"] = "Nusry Hamza"
 ```
-
+  - when an o
 5. Functions
 6. Undefined
 7. Bigints

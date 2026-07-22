@@ -22,7 +22,11 @@
  
 2. Strings
   - Strings can be defined
-  -
+     ```
+     let singleQuoteString = 'Hello!'
+     let doubleQuoteString = "Hello!"
+     let bactickString = `Hello!`
+     ```
 1. Booleans
 2. Objects
 3. Functions

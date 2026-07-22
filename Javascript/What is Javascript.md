@@ -1,1 +1,1 @@
-Javascript first was used developers to develop frontend where client side rendering is used but now with the evolution javascript is also used in server side using frame
+Javascript first was used developers to develop frontend applications where client side rendering is used but now with the evolution Javascript is also used in server side using frameworks like node.js.

@@ -8,8 +8,10 @@
 
 1. Numbers
   - integer and floating point numbers are both *number* type.
-  - negative numbers are also allowed
-  - hexa decimal numbers - `let hex = 0x2A`
+  - negative numbers are also allowed - `let x = -10`
+  - hex decimal numbers - `let hex = 0x2A`
+  - binary numbers - `0b101010`
+  - octal numbers - 0o
 
 
 2. Strings

@@ -60,4 +60,6 @@
 - **CoffeeScript** used for syntax shortcut or simplification for Js syntax
 - There are other Js Dialects of Js like **elm, LogicJS and Dart** for different use cases.
 
-### 
+### Basic Syntax 
+
+**Statement in JS**

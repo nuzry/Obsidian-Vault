@@ -68,11 +68,15 @@
 let x = 5;    
 let x = 5	
 
-//semi-colons
+//objects can be written as below
 let obj = {a:1, b:2, c:3}
 let obj = {
 	a: 1,
 	b: 2,
-	c
+	c: 3,
 }
+
+//comments in JS
+//This is a single line comment
+/**
 ```

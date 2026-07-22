@@ -129,7 +129,7 @@ user2  ─────┘                     user2  ─────┘
 	myArray.sort() --> [1, 2, 3, 4, 5, 6, 7]
 ```
 
-5. Functions
+6. Functions
   - *function* in JS means it *takes arguments* and after some *process* the function *returns a value* 
 ```
 	//Functions can be defined in many ways
@@ -145,7 +145,7 @@ user2  ─────┘                     user2  ─────┘
 	   
 ```
 
-5. Undefined
+7. Undefined
   - Undefined is a type of JS where the value is not defined but variable is declared
   ```
 	  let number;  //declared variable but not defined value
@@ -163,5 +163,7 @@ user2  ─────┘                     user2  ─────┘
 	  }
 	  //this doesnt means the age is undefined, it is not defined yet
   ```
-5. Bigints
-6. Symbols
+
+8. Bigints
+
+9. Symbols

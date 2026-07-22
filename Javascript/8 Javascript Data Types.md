@@ -13,15 +13,17 @@
   - binary numbers - `let binary = 0b101010`
   - octal numbers - `let octal = 0o52`
   - large numbers(scientific notations) - `let sixtyMillion = 6e7`
-  - *NaN* is not a number where when one number and 
+  - *NaN* is not a number where when one number and any other type is used as operands 
+	  `let answer = 10 * "oops" -
+2`
 
 
-2. Strings
-3. Booleans
-4. Objects
-5. Functions
-6. Undefined
-7. Bigints
-8. Symbols
+3. Strings
+4. Booleans
+5. Objects
+6. Functions
+7. Undefined
+8. Bigints
+9. Symbols
 
 

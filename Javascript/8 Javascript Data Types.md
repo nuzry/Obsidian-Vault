@@ -92,12 +92,12 @@ user1  ─────┐                     user1  ─────┐
             ▼                                 ▼
         ┌───────────┐                     ┌───────────┐
         │  Object   │                     │  Object   │
-        │ name:John │                     │ name:John │
-        │ age:25    │
-        └───────────┘
-            ▲
-            │
-user2  ─────┘         
+        │ name:John │   name changed      │ name:Alex │
+        │ age:25    │        same             │ age:25    │
+        └───────────┘                     └───────────┘
+            ▲                                 ▲
+            │                                 │
+user2  ─────┘                     user2  ─────┘  
 ```
   
 5. Functions

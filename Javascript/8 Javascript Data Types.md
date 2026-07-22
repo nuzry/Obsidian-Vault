@@ -134,7 +134,11 @@ user2  ─────┘                     user2  ─────┘
 ```
 	//Functions can be defined in many ways
 	1. 
-	   function add(a+b)
+	   function add(a, b)(return a+b)
+	2. 
+	   let add = function(a, b){return a+b}
+	3. 
+	   
 ```
 5. Undefined
 6. Bigints

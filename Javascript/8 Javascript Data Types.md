@@ -29,7 +29,7 @@
 ```
   - Backticks can use for some other tasks as well
 ```
-	let 
+	let backtickString = `Hello ${ name}`
 ```
 
 1. Booleans

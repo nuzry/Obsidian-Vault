@@ -78,6 +78,9 @@
 	   console.log(person.name)
 	2. [] method
 	   console.log(person["name"])
+	   
+	//changing values of the object
+	person.name = "Nusry H"
 ```
 
 5. Functions

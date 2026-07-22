@@ -9,5 +9,5 @@
 - Some developers still use just Javascript, it is name as '*Vanilla Javascript*'.
 - *npm* is code sharable library among developers (pre-built)
 - *NoSQL* databases are popular in javascript development, allows to store *Js Objects* (*MongoDB*)
-- 
+- Javascript can be used to develop mobile applications as well '*React-Native*'.
 

@@ -190,9 +190,7 @@ user2  ─────┘                     user2  ─────┘
 	console.log(a === b);     --> false
 	
 	//only time symbols are equal if it is the same value
-	
 	const a = Symbol("hello");
-
 	const b = a;
-console.log(a === b);
+	console.log(a === b);
   ```

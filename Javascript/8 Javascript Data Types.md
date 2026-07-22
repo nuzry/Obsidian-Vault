@@ -21,11 +21,13 @@
   - When working with decimals answers can be off sometimes `let x = 0.1 + 0.7  >> 0.799999999`
  
 2. Strings
-3. Booleans
-4. Objects
-5. Functions
-6. Undefined
-7. Bigints
-8. Symbols
+  - Strings can be defined
+  -
+1. Booleans
+2. Objects
+3. Functions
+4. Undefined
+5. Bigints
+6. Symbols
 
 

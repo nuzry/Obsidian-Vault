@@ -87,12 +87,12 @@
 ```
 Before modification:
 
-user1  ─────┐                     
-            │
-            ▼
-        ┌───────────┐
-        │  Object   │
-        │ name:John │
+user1  ─────┐                     user1  ─────┐ 
+            │                                 │
+            ▼                                 ▼
+        ┌───────────┐                     ┌───────────┐
+        │  Object   │                     │  Object   │
+        │ name:John │                     │ name:John │
         │ age:25    │
         └───────────┘
             ▲

@@ -65,7 +65,13 @@
 
 4. Objects
   - Objects in JS are different than other languages.
-  - Objects is key value 
+  - Objects is key value pair of grouped related data
+```
+	let person = {
+		name: "nusry",
+		age: 
+	}
+```
 
 5. Functions
 6. Undefined

@@ -175,6 +175,8 @@ user2  ─────┘                     user2  ─────┘
   - We cant add regular number to Bigint
   ```
   let add = 10n + 2  ERROR
-  le
+  let add = 10n + bigint(2) --> 12n
+  
+  Decimal portions in 
   ```
 7. Symbols

@@ -7,7 +7,7 @@
 #### The 8's in JS
 
 1. Numbers
-
+  - integer and floating point numbers are both number
 
 
 2. Strings

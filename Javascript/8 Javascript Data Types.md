@@ -64,7 +64,8 @@
  - falsie values in JS are **empty-strings, 0, NaN, 0n, null, undefined, false**
 
 4. Objects
-
+  - Objects in JS are different than other languages.
+  - Objects is key value 
 
 5. Functions
 6. Undefined

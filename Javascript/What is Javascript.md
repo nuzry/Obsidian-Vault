@@ -32,4 +32,4 @@
 - Js support OOP, but slightly different that usual.
 - Functional Programming is mostly done with JS
 - JS is *single-threaded* meaning one operation at a time.
-- 
+- Processing large amounts of data is not good with JS

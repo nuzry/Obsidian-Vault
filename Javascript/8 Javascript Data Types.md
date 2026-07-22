@@ -109,10 +109,10 @@ user2  ─────┘                     user2  ─────┘
 	
 	myObject.name --> changed!
 ```
-  - *null* type is an object in javascript
+  - *null* type is an *object* in javascript
 ```
 	let nullVal = null
-	console.log(nullVal)  //
+	console.log(nullVal)  //object
 ```
 
 5. Functions

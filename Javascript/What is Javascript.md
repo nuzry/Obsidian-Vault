@@ -45,5 +45,6 @@
 - Browser support concern only some browser has problem and others don't
 - Security Concens - source code is used by the browser to render so client can access source code.
 - Third party code can make our code vulnerable -*npm*.
-- Paradoxical behavior of js (go to this repo for info - https://github.com/denysdovhan/wtfjs.git)
-- 
+- Paradoxical behavior of Js (go to this repo for info - [Link](https://github.com/denysdovhan/wtfjs.git))
+- Not the best for OOP.
+- evolves quickly

@@ -31,4 +31,5 @@
 - JS is *Dynamic Typed* meaning while runtime only the variable type is determined not pre-defined like java (ex - int x = 5;)
 - Js support OOP, but slightly different that usual.
 - Functional Programming is mostly done with JS
-- JS is single-threaded
+- JS is *single-threaded* meaning one operation at a time.
+- 

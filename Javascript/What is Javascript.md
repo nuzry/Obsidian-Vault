@@ -51,4 +51,5 @@
 
 ### Versions in JS
 
--  JS has large number of runtime versions, the reason is being different browsers uses their own JS runtime 
+-  JS has large number of runtime versions, the reason is being different browsers uses their own JS runtime so some features wont work in some and and works in some.
+- 

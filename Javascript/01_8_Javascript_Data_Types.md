@@ -182,4 +182,5 @@ user2  ─────┘                     user2  ─────┘
   ```
 
 8. Symbols
-
+  - Symbols are a primitive data type in JS
+  - 

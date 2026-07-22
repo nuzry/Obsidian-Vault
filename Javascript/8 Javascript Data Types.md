@@ -165,7 +165,7 @@ user2  ─────┘                     user2  ─────┘
   ```
 
 7. Bigints
-  - Bigint allows the developer to add large numbers with accuray.
+  - Bigint allows the developer to add large numbers with accuracy.
   ```
 	  let veryBigInt = 999999999999999999999999999999999999n
 	  //this value never go out of bounce
@@ -177,6 +177,9 @@ user2  ─────┘                     user2  ─────┘
   let add = 10n + 2  ERROR
   let add = 10n + bigint(2) --> 12n
   
-  Decimal portions in 
+  Decimal portions in bigint are chopped off
+  let div = 5n / 2n  -->  2n
   ```
-7. Symbols
+
+8. Symbols
+

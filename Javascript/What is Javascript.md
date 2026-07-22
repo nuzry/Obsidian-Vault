@@ -63,3 +63,6 @@
 ### Basic Syntax 
 
 **Statement in JS**
+```let x = 5;
+	
+```

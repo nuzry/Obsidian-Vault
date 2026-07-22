@@ -24,4 +24,5 @@
 
 ### Language Features
 
-- No compilation of code in t
+- *No compilation of code* in to something before execution
+- JS runtime reads the actual Js code that we write to execute the code

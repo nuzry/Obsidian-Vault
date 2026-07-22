@@ -33,8 +33,10 @@
 ```
   - Get information about the string in JS
 ```
-	let backtickString = `Hello`
-	my
+	let myString = `Hello`
+	myString.length  //5
+	myString.charAt(0) //
+	
 ```
 1. Booleans
 2. Objects

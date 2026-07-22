@@ -119,13 +119,13 @@ user2  ─────┘                     user2  ─────┘
   - Array can have multiple data types in the same array.
   - Array has multiple built-in methods
 ```
-	let myArray = [1, 2, 3, 5, 6, 7]
+	let myArray = [1, 2, 3, 4, 5, 6, 7]
 	myArray.length --> gives the length of the array (element count)
 	myArray.push(8)  --> adds as an elemenet at the end of the array
 	myArray.pop() --> removes the last element from the array
 	myArray.indexOf(2) -->shows the index number where the number 2 exist in array
 	myArray.map(x => x+1) --> [2, 3, 4, 5, 6, 7, 8]
-	myArray
+	myArray.filter(x => x < 4) []
 ```
 5. Functions
 6. Undefined

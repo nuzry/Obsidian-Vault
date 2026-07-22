@@ -27,11 +27,11 @@
      let doubleQuoteString = "Hello!"
      let bactickString = `Hello!`
 ```
-  - Backticks can use for some other tasks as well
+  - Backticks can use for some other tasks as well called **template literals** where it allows you to use variable value in the string.
 ```
 	let backtickString = `Hello ${ name}`
 ```
-
+  - 
 1. Booleans
 2. Objects
 3. Functions

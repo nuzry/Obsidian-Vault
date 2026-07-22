@@ -38,7 +38,10 @@
 	myString.charAt(0) //H
 	myString.toUpperCase() //HELLO
 	myString.toLowerCase() //hello
-	
+```
+  - Usage of escape character.
+```
+	lest question = "How"
 ```
 1. Booleans
 2. Objects

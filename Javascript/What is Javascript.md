@@ -13,3 +13,9 @@
 - Javascript can be used to develop mobile applications as well '*React-Native*'.
 - Javascript can be used to develop Desktop applications too '*ElectronJS'
 
+
+| Name | type | usecase |
+| ---- | ---- | ------- |
+|      |      |         |
+
+

@@ -6,12 +6,16 @@
 
 #### The 8's in JS
 
-- Numbers
-- Strings
-- Booleans
-- Objects
-- Functions
-- Undefined
-- Bigints
-- Symobls
-- 
+1. Numbers
+
+
+
+2. Strings
+3. Booleans
+4. Objects
+5. Functions
+6. Undefined
+7. Bigints
+8. Symbols
+
+

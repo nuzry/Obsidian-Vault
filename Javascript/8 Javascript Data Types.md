@@ -35,7 +35,9 @@
 ```
 	let myString = `Hello`
 	myString.length  //5
-	myString.charAt(0) //
+	myString.charAt(0) //H
+	myString.toUpperCase() //HELLO
+	myString.toLowerCase() //hello
 	
 ```
 1. Booleans

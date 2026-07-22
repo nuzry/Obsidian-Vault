@@ -16,7 +16,8 @@
   - *NaN* is not a number where when one number and any other type is used as operands `let answer = 10 * "oops" --> NaN`
   - *Infinity* is a type when you divide small number with big number `let infinity = 9/10`
   - *NaN* and *Infinity* are also considered as numbers
-  - 
+  - All numbers are stored as 64 bit floating point values
+  - Big numbers in JS are
  
 2. Strings
 3. Booleans

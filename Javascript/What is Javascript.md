@@ -58,4 +58,4 @@
 - **Typescript** and **CoffeeScript** are dialect of JS that converts automatically in to JS before they run.
 - **Typescript** - used to type specify (static typing) rather than using dynamic typing to have more control for the developer
 - **CoffeeScript** used for syntax shortcut or simplification for Js syntax
-- There are
+- There are other Js Dialects of Js like **elm, LogicJS and Dart** for different use cases.

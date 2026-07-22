@@ -31,7 +31,11 @@
 ```
 	let backtickString = `Hello ${ name}`
 ```
-  - 
+  - Get information about the string in JS
+```
+	let backtickString = `Hello`
+	my
+```
 1. Booleans
 2. Objects
 3. Functions

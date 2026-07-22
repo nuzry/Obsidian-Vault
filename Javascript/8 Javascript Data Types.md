@@ -128,7 +128,9 @@ user2  ─────┘                     user2  ─────┘
 	myArray.filter(x => x < 4) [5, 6, 7]
 	myArray.sort() --> [1, 2, 3, 4, 5, 6, 7]
 ```
+
 5. Functions
-6. Undefined
-7. Bigints
-8. Symbols
+  - function in JS means it gets 
+5. Undefined
+6. Bigints
+7. Symbols

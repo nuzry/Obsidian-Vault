@@ -1,1 +1,1 @@
-Javascript
+Javascript first was used developers to develop frontend where client side rendering is used but now with the evolution javascript is also used in server side using frame

@@ -7,7 +7,9 @@
 #### The 8's in JS
 
 1. Numbers
-  - integer and floating point numbers are both number
+  - integer and floating point numbers are both *number* type.
+  - negative numbers are also allowed
+  - hexa decimal numbers - `let hex = 0x2A`
 
 
 2. Strings

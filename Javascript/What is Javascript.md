@@ -51,4 +51,4 @@
 
 ### Versions in JS
 
-- 
+-  JS has large number of versions, the reason is being different browsers uses their own JS runtime 

@@ -55,3 +55,4 @@
 - Due to the above problem ECMAScript specification came where it sets of language features that a runtime must have in order to be **ES6**, **ES7**, **ES7**.
 - Now there are different systems like **BABEL** that helps to convert the code so that it can work with different runtimes.
 - **ESNext** the next version of Javascript runtime
+- **Typescript** and **CoffeeScript** are dial

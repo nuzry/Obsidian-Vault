@@ -161,9 +161,7 @@ user2  ─────┘                     user2  ─────┘
 		  name: "nusry"
 		  age: null
 	  }
-	  
-	  
-	  
+	  //this doesnt means the age is undefined, it is not defined yet
   ```
 5. Bigints
 6. Symbols

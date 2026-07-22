@@ -130,7 +130,10 @@ user2  ─────┘                     user2  ─────┘
 ```
 
 5. Functions
-  - function in JS means it takes ar and after some *process* the function *returns a value* 
+  - *function* in JS means it *takes arguments* and after some *process* the function *returns a value* 
+```
+	
+```
 5. Undefined
 6. Bigints
 7. Symbols

@@ -146,7 +146,7 @@ user2  ─────┘                     user2  ─────┘
 ```
 
 5. Undefined
-  - Undefined is a type of JS where the value is not defined.
+  - Undefined is a type of JS where the value is not defined but variable is declared
   ```
 	  let number;  //declared variable but not defined value
 	  typeof(number)  //undefined
@@ -156,6 +156,11 @@ user2  ─────┘                     user2  ─────┘
 	  typeof(array[10]) //undefined value doesn't exist
 	  
 	  BUT
+	  
+	  let person = {
+		  name: "nusry"
+		  age: null
+	  }
 	  
 	  
 	  

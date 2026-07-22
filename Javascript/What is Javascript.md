@@ -16,7 +16,7 @@
 
 | Name             | type      | usecase         |
 | ---------------- | --------- | --------------- |
-| **React**        | Framework | web-frontend    |
+| **React**        | Library   | web-frontend    |
 | **Angular**      | Framework | web-frontend    |
 | **jQuery**       | Framework | web-frontend    |
 | **View**         | Framework | web-frontend    |

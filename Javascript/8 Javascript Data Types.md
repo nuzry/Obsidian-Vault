@@ -83,7 +83,8 @@
 	person.name = "Nusry Hamza"
 	person["name"] = "Nusry Hamza"
 ```
-  - when an object is defined a variable that variable doesn't contain the object the variable is a reference to an object if we use another variable to the same object then both variables will be pointing towards the same object.
+  - variable **does not own an object**. It stores a **reference (pointer) to the object in memory**
+
   
 5. Functions
 6. Undefined

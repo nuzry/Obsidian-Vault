@@ -22,13 +22,15 @@
  
 2. Strings
   - Strings can be defined
-  - 
- ```
+```
      let singleQuoteString = 'Hello!'
      let doubleQuoteString = "Hello!"
      let bactickString = `Hello!`
 ```
-
+  - Backticks can use for some other tasks as well
+```
+	let 
+```
 
 1. Booleans
 2. Objects

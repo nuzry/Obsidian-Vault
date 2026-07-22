@@ -123,7 +123,8 @@ user2  ─────┘                     user2  ─────┘
 	myArray.length --> gives the length of the array (element count)
 	myArray.push(8)  --> adds as an elemenet at the end of the array
 	myArray.pop() --> removes the last element from the array
-	myArray
+	myArray.indexOf(2) -->shows the index number where the number 2 exist in array
+	myArrya.map(x => x.)
 ```
 5. Functions
 6. Undefined

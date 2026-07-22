@@ -40,4 +40,4 @@
  - npm library support
  - easy to learn and use
  - can use in multiple places
- - 
+ - JS can used to render UI in the client side without rendering in server.

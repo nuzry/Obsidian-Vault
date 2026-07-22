@@ -124,7 +124,8 @@ user2  ─────┘                     user2  ─────┘
 	myArray.push(8)  --> adds as an elemenet at the end of the array
 	myArray.pop() --> removes the last element from the array
 	myArray.indexOf(2) -->shows the index number where the number 2 exist in array
-	myArrya.map(x => x.)
+	myArray.map(x => x+1) --> [2, 3, 4, 5, 6, 7, 8]
+	myArray
 ```
 5. Functions
 6. Undefined

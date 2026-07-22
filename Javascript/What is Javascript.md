@@ -56,4 +56,5 @@
 - Now there are different systems like **BABEL** that helps to convert the code so that it can work with different runtimes.
 - **ESNext** the next version of Javascript runtime
 - **Typescript** and **CoffeeScript** are dialect of JS that converts automatically in to JS before they run.
-- **Typescript** - usecase is to type specify
+- **Typescript** - used to type specify (static typing) rather than using dynamic typing to have more control for the developer
+- **CoffeScript**

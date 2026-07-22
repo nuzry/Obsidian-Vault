@@ -167,6 +167,9 @@ user2  ─────┘                     user2  ─────┘
 7. Bigints
   - Bigint allows the developer to add large numbers with accuray.
   ```
-	  let very
+	  let veryBigInt = 999999999999999999999999999999999999n
+	  //this value never go out of bounce
+	  
+	  this can be done to hex, octal, binary numbers as well
   ```
 7. Symbols

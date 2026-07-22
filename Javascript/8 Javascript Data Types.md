@@ -41,7 +41,8 @@
 ```
   - Usage of escape character.
 ```
-	lest question = "How"
+	let question = ""How do I use quotes?" she asked" --> wrong
+	let question = ""
 ```
 1. Booleans
 2. Objects

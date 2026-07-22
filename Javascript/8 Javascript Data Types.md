@@ -133,7 +133,8 @@ user2  ─────┘                     user2  ─────┘
   - *function* in JS means it *takes arguments* and after some *process* the function *returns a value* 
 ```
 	//Functions can be defined in many ways
-	1. 
+	
+	1. Hoisted Functions
 	   function add(a, b)(return a+b)
 	   
 	2. 

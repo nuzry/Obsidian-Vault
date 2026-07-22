@@ -114,7 +114,8 @@ user2  ─────┘                     user2  ─────┘
 	let nullVal = null
 	console.log(nullVal)  //object
 ```
-
+- *Side Topic - Arrays in Javascript*
+  - 
 5. Functions
 6. Undefined
 7. Bigints

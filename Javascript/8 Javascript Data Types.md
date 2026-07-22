@@ -43,7 +43,9 @@
 ```
 	let question = ""How do I use quotes?" she asked" --> wrong
 	let question = "\"How do I use quotes?\"she asked" --> correct
+	let question = '"How do I use quotes?"she asked' --> correct
 	
+	//special characters
 ```
 1. Booleans
 2. Objects

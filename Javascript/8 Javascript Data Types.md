@@ -74,7 +74,10 @@
 	}
 	
 	//accessing properties in side an object
-	
+	1. . method
+	   console.log(person.name)
+	2. [] method
+	   console.log(person["name"])
 ```
 
 5. Functions

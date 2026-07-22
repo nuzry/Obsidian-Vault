@@ -84,7 +84,21 @@
 	person["name"] = "Nusry Hamza"
 ```
   - variable **does not own an object**. It stores a **reference (pointer) to the object in memory**
+```
+Before modification:
 
+user1  ─────┐                     
+            │
+            ▼
+        ┌───────────┐
+        │  Object   │
+        │ name:John │
+        │ age:25    │
+        └───────────┘
+            ▲
+            │
+user2  ─────┘         
+```
   
 5. Functions
 6. Undefined

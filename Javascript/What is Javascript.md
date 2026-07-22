@@ -8,5 +8,6 @@
 - *Node.js* is mostly used for server-side development.
 - Some developers still use just Javascript, it is name as '*Vanilla Javascript*'.
 - *npm* is code sharable library among developers (pre-built)
-- *NoSQL* databases are popular in javascript development (*MongoDB*)
+- *NoSQL* databases are popular in javascript development, allows to store *Js Objects* (*MongoDB*)
+- 
 

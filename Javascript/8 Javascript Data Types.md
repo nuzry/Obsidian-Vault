@@ -144,6 +144,9 @@ user2  ─────┘                     user2  ─────┘
 	   let add = (a, b) => { return a+b}
 	   
 ```
+
 5. Undefined
-6. Bigints
-7. Symbols
+  - Undefined is a type of JS where the value is not defined.
+  - 
+5. Bigints
+6. Symbols

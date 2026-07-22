@@ -132,7 +132,9 @@ user2  ─────┘                     user2  ─────┘
 5. Functions
   - *function* in JS means it *takes arguments* and after some *process* the function *returns a value* 
 ```
-	
+	//Functions can be defined in many ways
+	1. 
+	   function add(a+b)
 ```
 5. Undefined
 6. Bigints

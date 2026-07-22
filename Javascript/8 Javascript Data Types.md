@@ -56,7 +56,7 @@
 ```
 	let fname = "nusry"
 	let lname = "hamza"
-	let fullName = fname
+	let fullName = fname+ " "+lname  //nusry hamza
 ```
 1. Booleans
 2. Objects

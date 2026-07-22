@@ -183,4 +183,9 @@ user2  ─────┘                     user2  ─────┘
 
 8. Symbols
   - Symbols are a primitive data type in JS
-  - 
+  - The reason for symbol datatype is to create a value that is unique that any other value wont be similar to it
+  ```
+	const a = Symbol("hello");
+	const b = Symbol("hello");
+	console.log(a === b);     --> false
+  ```

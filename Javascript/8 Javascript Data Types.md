@@ -121,7 +121,9 @@ user2  ─────┘                     user2  ─────┘
 ```
 	let myArray = [1, 2, 3, 5, 6, 7]
 	myArray.length --> gives the length of the array (element count)
-	myArray.push()
+	myArray.push(8)  --> adds as an elemenet at the end of the array
+	myArray.pop() --> removes the last element from the array
+	myArray
 ```
 5. Functions
 6. Undefined

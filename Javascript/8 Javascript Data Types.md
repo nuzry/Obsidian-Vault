@@ -27,7 +27,7 @@
      let doubleQuoteString = "Hello!"
      let bactickString = `Hello!`
 ```
-  - Backticks can use for some other tasks as well called **template literals** where it allows you to use variable value in the string.
+  - Backticks can use for some other tasks as well called #template-literals where it allows you to use variable value in the string.
 ```
 	let backtickString = `Hello ${ name}`
 ```
@@ -39,7 +39,7 @@
 	myString.toUpperCase() //HELLO
 	myString.toLowerCase() //hello
 ```
-  - Usage of escape character.
+  - Usage of #escape-character.
 ```
 	let question = ""How do I use quotes?" she asked" --> wrong
 	let question = "\"How do I use quotes?\"she asked" --> correct
@@ -52,7 +52,7 @@
 		second line
 	*/
 ```
-  - String concatenation
+  - #String-concatenation
 1. Booleans
 2. Objects
 3. Functions

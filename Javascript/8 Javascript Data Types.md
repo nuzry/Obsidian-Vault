@@ -134,10 +134,10 @@ user2  ─────┘                     user2  ─────┘
 ```
 	//Functions can be defined in many ways
 	
-	1. Hoisted Functions
+	1. Hoisted Functions (Function declaration) - moves the function scope to top         while exeution
 	   function add(a, b)(return a+b)
 	   
-	2. 
+	2. Function Expression
 	   let add = function(a, b){return a+b}
 	   
 	3. Arrow Function

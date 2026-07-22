@@ -59,3 +59,5 @@
 - **Typescript** - used to type specify (static typing) rather than using dynamic typing to have more control for the developer
 - **CoffeeScript** used for syntax shortcut or simplification for Js syntax
 - There are other Js Dialects of Js like **elm, LogicJS and Dart** for different use cases.
+
+### 

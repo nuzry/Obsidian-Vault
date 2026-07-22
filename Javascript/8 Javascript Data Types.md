@@ -115,6 +115,7 @@ user2  ─────┘                     user2  ─────┘
 	console.log(nullVal)  //object
 ```
 - *Side Topic - Arrays in Javascript*
+  - Array is an object in javascript
   - 
 5. Functions
 6. Undefined

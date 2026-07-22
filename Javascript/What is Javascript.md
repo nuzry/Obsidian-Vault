@@ -78,5 +78,13 @@ let obj = {
 
 //comments in JS
 //This is a single line comment
-/**
+/*
+This is 
+Multi
+Line
+comment
+*/
+
+//printing in JS
+console.log("Hello, World!")  //will get printed in browser console.
 ```

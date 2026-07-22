@@ -48,3 +48,5 @@
 - Paradoxical behavior of Js (go to this repo for info - [Link](https://github.com/denysdovhan/wtfjs.git))
 - Not the best for OOP.
 - evolves quickly
+
+### Versions in JS

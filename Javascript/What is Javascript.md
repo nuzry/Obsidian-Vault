@@ -24,6 +24,6 @@
 
 ### Language Features
 
-- *No compilation of code* in to something before execution
+- *No compilation of code* in to *bytecode* before execution
 - JS runtime reads the actual JS code that we write to execute the code
-- Modern browsers uses JIT to compile to byte code not for necessity but for performance reasons.
+- Modern browsers uses *JIT* to compile to byte code not for necessity but for performance reasons.

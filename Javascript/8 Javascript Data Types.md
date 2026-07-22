@@ -14,12 +14,14 @@
   - octal numbers - `let octal = 0o52`
   - large numbers(scientific notations) - `let sixtyMillion = 6e7`
   - *NaN* is not a number where when one number and any other type is used as operands `let answer = 10 * "oops" --> NaN`
-1. Strings
-2. Booleans
-3. Objects
-4. Functions
-5. Undefined
-6. Bigints
-7. Symbols
+  - *Infinity* is a type when you
+ 
+2. Strings
+3. Booleans
+4. Objects
+5. Functions
+6. Undefined
+7. Bigints
+8. Symbols
 
 

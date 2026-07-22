@@ -45,7 +45,9 @@
 	let question = "\"How do I use quotes?\"she asked" --> correct
 	let question = '"How do I use quotes?"she asked' --> correct
 	
-	//special characters
+	//other escape characters use cases
+	let nextLine = "first line \nsecond line"
+	/**/
 ```
 1. Booleans
 2. Objects

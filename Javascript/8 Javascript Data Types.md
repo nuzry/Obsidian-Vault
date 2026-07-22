@@ -172,4 +172,9 @@ user2  ─────┘                     user2  ─────┘
 	  
 	  this can be done to hex, octal, binary numbers as well
   ```
+  - We cant add regular number to Bigint
+  ```
+  let add = 10n + 2  ERROR
+  le
+  ```
 7. Symbols

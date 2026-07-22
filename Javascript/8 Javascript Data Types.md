@@ -164,6 +164,9 @@ user2  ─────┘                     user2  ─────┘
 	  //this doesnt means the age is undefined, it is not defined yet
   ```
 
-8. Bigints
-
-9. Symbols
+7. Bigints
+  - Bigint allows the developer to add large numbers with accuray.
+  ```
+	  let very
+  ```
+7. Symbols

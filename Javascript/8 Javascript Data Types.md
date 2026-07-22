@@ -58,9 +58,10 @@
 	let lname = "hamza"
 	let fullName = fname+ " "+lname  //nusry hamza
 ```
-1. Booleans
-2. Objects
-3. Functions
-4. Undefined
-5. Bigints
-6. Symbols
+3. Booleans
+ - True or False
+3. Objects
+4. Functions
+5. Undefined
+6. Bigints
+7. Symbols

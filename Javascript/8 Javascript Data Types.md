@@ -83,7 +83,7 @@
 	person.name = "Nusry Hamza"
 	person["name"] = "Nusry Hamza"
 ```
-  - when an o
+  - when an object is defined a variable that variable doesn't contain the object the variable is a reference to an object if we use another variable 
 5. Functions
 6. Undefined
 7. Bigints

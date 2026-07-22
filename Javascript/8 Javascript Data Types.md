@@ -60,6 +60,8 @@
 ```
 3. Booleans
  - True or False
+ - falsy values in JS are **empty-strings, 0, NaN, 0n, null, undefined, false**
+ - 
 3. Objects
 4. Functions
 5. Undefined

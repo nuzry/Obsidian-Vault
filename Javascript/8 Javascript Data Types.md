@@ -116,7 +116,11 @@ user2  ─────┘                     user2  ─────┘
 ```
 - *Side Topic - Arrays in Javascript*
   - Array is an object in javascript
-  - 
+  - Array can have multiple data types in the same array.
+  - Array has multiple built-in methods
+```
+	let myArray = 
+```
 5. Functions
 6. Undefined
 7. Bigints

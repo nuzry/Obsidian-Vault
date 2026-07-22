@@ -12,7 +12,8 @@
   - hex decimal numbers - `let hex = 0x2A`
   - binary numbers - `let binary = 0b101010`
   - octal numbers - `let octal = 0o52`
-  - large numbers(scientific notations) - `let sixt`
+  - large numbers(scientific notations) - `let sixtyMillion = 6e7`
+  - *NaN* is not a number where when one number and 
 
 
 2. Strings

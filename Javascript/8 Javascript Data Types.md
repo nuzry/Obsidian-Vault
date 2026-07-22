@@ -10,8 +10,9 @@
   - integer and floating point numbers are both *number* type.
   - negative numbers are also allowed - `let x = -10`
   - hex decimal numbers - `let hex = 0x2A`
-  - binary numbers - `0b101010`
-  - octal numbers - 0o
+  - binary numbers - `let binary = 0b101010`
+  - octal numbers - `let octal = 0o52`
+  - large numbers(scientific notations) - `let sixt`
 
 
 2. Strings

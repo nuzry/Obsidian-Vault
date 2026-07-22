@@ -52,7 +52,12 @@
 		second line
 	*/
 ```
-  - #String-concatenation
+  - #String-concatenation 
+```
+	let fname = "nusry"
+	let lname = "hamza"
+	let fullName = fname
+```
 1. Booleans
 2. Objects
 3. Functions

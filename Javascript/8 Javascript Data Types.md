@@ -149,7 +149,9 @@ user2  ─────┘                     user2  ─────┘
   - Undefined is a type of JS where the value is not defined.
   ```
 	  let number;  //declared variable but not defined value
-	  typeOf(number)  //undefined
+	  typeof(number)  //undefined
+	  let person = {name: "nusry"}
+	  typeof(person.age) //undefined since it doesnt exist
 	  
   ```
 5. Bigints

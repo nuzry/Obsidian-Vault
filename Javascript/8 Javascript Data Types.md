@@ -147,6 +147,10 @@ user2  ─────┘                     user2  ─────┘
 
 5. Undefined
   - Undefined is a type of JS where the value is not defined.
-  - 
+  ```
+	  let number;  //declared variable but not defined value
+	  typeOf(number)  //undefined
+	  
+  ```
 5. Bigints
 6. Symbols

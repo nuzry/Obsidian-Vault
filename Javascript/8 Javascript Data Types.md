@@ -18,7 +18,8 @@
   - *NaN* and *Infinity* are also considered as numbers
   - All numbers are stored as 64 bit floating point values
   - Big numbers in JS are accurate up to 15 digits.
-  - When working with decimals answers can be 
+  - When working with decimals answers can be off sometimes `let x = 0.1 + 0.7  >> 0.799999999`
+  - 
  
 2. Strings
 3. Booleans

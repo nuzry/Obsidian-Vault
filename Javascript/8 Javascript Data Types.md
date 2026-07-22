@@ -101,7 +101,13 @@ user2  ─────┘                     user2  ─────┘
 ```
   - If a function changes an object's body inside the function that change affects for the outside as well.
 ```
-	f
+	function myFunc(obj){
+		obj.name = "changed!"
+	}
+	
+	myFunction(myObject)
+	
+	myObject.name --> changed!
 ```
 5. Functions
 6. Undefined

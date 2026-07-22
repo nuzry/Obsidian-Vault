@@ -58,12 +58,15 @@
 	let lname = "hamza"
 	let fullName = fname+ " "+lname  //nusry hamza
 ```
+
 3. Booleans
  - True or False
- - falsy values in JS are **empty-strings, 0, NaN, 0n, null, undefined, false**
- - 
-3. Objects
-4. Functions
-5. Undefined
-6. Bigints
-7. Symbols
+ - falsie values in JS are **empty-strings, 0, NaN, 0n, null, undefined, false**
+
+4. Objects
+
+
+5. Functions
+6. Undefined
+7. Bigints
+8. Symbols

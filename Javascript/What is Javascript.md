@@ -20,9 +20,9 @@
 | **Angular**      | Framework | web-frontend    |
 | **jQuery**       | Framework | web-frontend    |
 | **Vue.js**       | Framework | web-frontend    |
-| **Svelte**       |           |                 |
+| **Svelte**       | Framework | web-frontend    |
 | **Node.js**      | Framework | server-side dev |
-| **React-Native** | Library   |                 |
-|                  |           |                 |
+| **React-Native** | Fram      | Mobile-app dev  |
+| **ElectronJS**   |           |                 |
 
 

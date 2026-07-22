@@ -7,5 +7,6 @@
 - *React*, *Angular*, *jQuery*, *View* are some fronted frameworks.
 - *Node.js* is mostly used for server-side development.
 - Some developers still use just Javascript, it is name as '*Vanilla Javascript*'.
-- *npm* is a sharable code 
+- *npm* is code sharable library among developers (pre-built)
+- 
 

@@ -1,6 +1,6 @@
 #### Equality in Javascript
 
-- **Use `===` (Strict Equality)**
-- Compares **value + type**
-- Safer and more predictable
+- `===` checks **value + type** → preferred 
+-  `==` ignores type → can cause unexpected bugs 
+- Objects/arrays compare by **reference**, not content → use deep equality to compare contents
 

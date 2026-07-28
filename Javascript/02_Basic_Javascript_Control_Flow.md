@@ -168,3 +168,26 @@ switch (day) {
     console.log("Friday");  // also runs unintentionally!
 }
 ```
+
+#### JS Ternary Operator
+
+- Compact alternative to `if/else` for **assigning values**
+- Syntax: `condition ? valueIfTrue : valueIfFalse`
+- ⚠️ Avoid nesting ternaries → hurts readability
+
+```js
+const age = 20;
+
+// if/else vs ternary
+if (age >= 18) { status = "adult"; } else { status = "minor"; }
+const status = age >= 18 ? "adult" : "minor"; // cleaner
+
+// Nested ternary - avoid this
+const label = age < 13 ? "child" : age < 18 ? "teen" : "adult"; // hard to read
+
+// Better → use if/else for complex conditions
+let label;
+if (age < 13) label = "child";
+else if (age < 18) label = "teen";
+else label = "adult";
+```

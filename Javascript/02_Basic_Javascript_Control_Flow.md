@@ -40,3 +40,35 @@ if (!value) console.log("falsy!");
 if (age >= 18 && hasID) console.log("entry allowed");
 if (isAdmin || isMod) console.log("access granted");
 ```
+
+#### JS For Loops
+
+- **`for`** → classic loop, uses index + condition + increment; flexible but verbose
+- **`for...of`** → cleaner iteration over **array values**
+- **`for...in`** → iterates over **object keys**
+- **`forEach`** → array method, runs a function on each element
+
+```js
+const fruits = ["apple", "banana", "cherry"];
+const user = { name: "Sam", age: 25 };
+
+// Traditional for
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]); // "apple", "banana", "cherry"
+}
+
+// for...of (array values)
+for (const fruit of fruits) {
+  console.log(fruit); // "apple", "banana", "cherry"
+}
+
+// for...in (object keys)
+for (const key in user) {
+  console.log(key, user[key]); // "name Sam", "age 25"
+}
+
+// forEach
+fruits.forEach(fruit => {
+  console.log(fruit); // "apple", "banana", "cherry"
+});
+```

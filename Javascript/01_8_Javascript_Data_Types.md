@@ -22,17 +22,17 @@
  
 2. Strings
   - Strings can be defined
-```
+```js
      let singleQuoteString = 'Hello!'
      let doubleQuoteString = "Hello!"
      let bactickString = `Hello!`
 ```
   - Backticks can use for some other tasks as well called #template-literals where it allows you to use variable value in the string.
-```
+```js
 	let backtickString = `Hello ${ name}`
 ```
   - Get information about the string in JS
-```
+```js
 	let myString = `Hello`
 	myString.length  //5
 	myString.charAt(0) //H
@@ -40,7 +40,7 @@
 	myString.toLowerCase() //hello
 ```
   - Usage of #escape-character.
-```
+```js
 	let question = ""How do I use quotes?" she asked" --> wrong
 	let question = "\"How do I use quotes?\"she asked" --> correct
 	let question = '"How do I use quotes?"she asked' --> correct
@@ -53,7 +53,7 @@
 	*/
 ```
   - #String-concatenation 
-```
+```js
 	let fname = "nusry"
 	let lname = "hamza"
 	let fullName = fname+ " "+lname  //nusry hamza
@@ -66,7 +66,7 @@
 4. Objects
   - Objects in JS are different than other languages.
   - Objects is key value pair of grouped related data
-```
+```js
 	let person = {
 		name: "nusry",
 		age: 21,
@@ -84,7 +84,7 @@
 	person["name"] = "Nusry Hamza"
 ```
   - variable **does not own an object**. It stores a **reference (pointer) to the object in memory**
-```
+```js
 Before modification:
 
 user1  ─────┐                     user1  ─────┐ 
@@ -100,7 +100,7 @@ user1  ─────┐                     user1  ─────┐
 user2  ─────┘                     user2  ─────┘  
 ```
   - If a function changes an object's body inside the function that change affects for the outside as well.
-```
+```js
 	function myFunc(obj){
 		obj.name = "changed!"
 	}
@@ -110,7 +110,7 @@ user2  ─────┘                     user2  ─────┘
 	myObject.name --> changed!
 ```
   - *null* type is an *object* in javascript
-```
+```js
 	let nullVal = null
 	console.log(nullVal)  //object
 ```
@@ -118,7 +118,7 @@ user2  ─────┘                     user2  ─────┘
   - Array is an object in javascript
   - Array can have multiple data types in the same array.
   - Array has multiple built-in methods
-```
+```js
 	let myArray = [1, 2, 3, 4, 5, 6, 7]
 	myArray.length --> gives the length of the array (element count)
 	myArray.push(8)  --> adds as an elemenet at the end of the array
@@ -131,7 +131,7 @@ user2  ─────┘                     user2  ─────┘
 
 6. Functions
   - *function* in JS means it *takes arguments* and after some *process* the function *returns a value* 
-```
+```js
 	//Functions can be defined in many ways
 	
 	1. Hoisted Functions (Function declaration) - moves the function scope to top         while exeution
@@ -147,7 +147,7 @@ user2  ─────┘                     user2  ─────┘
 
 7. Undefined
   - Undefined is a type of JS where the value is not defined but variable is declared
-  ```
+  ```js
 	  let number;  //declared variable but not defined value
 	  typeof(number)  //undefined
 	  let person = {name: "nusry"}

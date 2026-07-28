@@ -63,7 +63,7 @@
 ### Basic Syntax 
 
 **Statement in JS**
-```
+```js
 //both ways mentioned belw are correct
 let x = 5;    
 let x = 5	

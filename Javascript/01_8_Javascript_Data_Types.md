@@ -166,14 +166,14 @@ user2  ─────┘                     user2  ─────┘
 
 7. Bigints
   - Bigint allows the developer to add large numbers with accuracy.
-  ```
+  ```js
 	  let veryBigInt = 999999999999999999999999999999999999n
 	  //this value never go out of bounce
 	  
 	  this can be done to hex, octal, binary numbers as well
   ```
   - We cant add regular number to Bigint
-  ```
+  ```js
   let add = 10n + 2  ERROR
   let add = 10n + bigint(2) --> 12n
   
@@ -184,7 +184,7 @@ user2  ─────┘                     user2  ─────┘
 8. Symbols
   - Symbols are a primitive data type in JS
   - The reason for symbol datatype is to create a value that is unique that any other value wont be similar to it
-  ```
+  ```js
 	const a = Symbol("hello");
 	const b = Symbol("hello");
 	console.log(a === b);     --> false

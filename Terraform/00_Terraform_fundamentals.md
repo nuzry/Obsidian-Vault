@@ -50,7 +50,7 @@ Terraform allows us to:
  1. Write the code for infrastructure creation.
  
 Sample code:
-```
+```js
 terraform {
   required_providers {
     aws = {
@@ -64,14 +64,14 @@ terraform {
 ```
 In the above lines of code it says terraform, which cloud provider is used for infrastructure creation with its source, the HCL(HashiCorp Configuration Language). with what version and stuff""
 
-```
+```js
 provider "aws" {
   region = "us-east-2"
 }
 ```
 In the above lines it says the in the AWS provider which region to be used
 
-```
+```js
 resource "aws_instance" "lesson_03" {
   ami           = "ami-0c7c4e3c6b4941f0f"
   instance_type = "t2.micro"

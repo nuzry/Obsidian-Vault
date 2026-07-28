@@ -123,4 +123,19 @@ try {
 } finally {
   console.log("always runs"); // cleanup goes here
 }
+
+example
+
+try{
+    throw("this is an error\n")
+}catch (err){
+    console.log(err, "this is the catch block error")
+}finally{
+    console.log("Hey i am still here")
+}
+
+output:
+//this is an error
+// this is the catch block error
+//Hey i am still here
 ```

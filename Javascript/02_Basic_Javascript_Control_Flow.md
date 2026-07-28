@@ -191,3 +191,27 @@ if (age < 13) label = "child";
 else if (age < 18) label = "teen";
 else label = "adult";
 ```
+
+#### JS Variable Scoping
+
+- **`var`** → **function-scoped**; accessible anywhere within the function
+- **`let`** → **block-scoped**; only accessible within its `{}` block
+- Prefer `let` over `var` → more predictable, fewer bugs
+
+```js
+function example() {
+  if (true) {
+    var x = "var";   // function-scoped
+    let y = "let";   // block-scoped
+  }
+  console.log(x); // "var" → accessible
+  console.log(y); // ❌ ReferenceError: y is not defined
+}
+
+// var leaking out of a loop
+for (var i = 0; i < 3; i++) {}
+console.log(i); // 3 → leaks out
+
+for (let j = 0; j < 3; j++) {}
+console.log(j); // ❌ ReferenceError → stays in block
+```

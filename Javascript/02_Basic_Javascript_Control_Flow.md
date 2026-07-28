@@ -72,3 +72,33 @@ fruits.forEach(fruit => {
   console.log(fruit); // "apple", "banana", "cherry"
 });
 ```
+
+
+#### JS While & Do While Loops
+
+- **`while`** → checks condition **before** running; may never execute if condition starts false
+- **`do...while`** → runs body **first**, then checks; always executes **at least once**
+- Useful when the number of iterations is **unknown** in advance
+- ⚠️ Always ensure the condition eventually becomes `false` → avoid infinite loops
+
+```js
+let count = 0;
+
+// while - checks first
+while (count < 3) {
+  console.log(count); // 0, 1, 2
+  count++;
+}
+
+// do...while - runs first, then checks
+let tries = 0;
+do {
+  console.log("attempt:", tries); // runs at least once
+  tries++;
+} while (tries < 3);
+
+// Condition starts false - while vs do...while
+let x = 10;
+while (x < 5) { console.log("never runs"); }
+do { console.log("runs once"); } while (x < 5);
+```

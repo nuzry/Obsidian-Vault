@@ -37,5 +37,10 @@ if (isAdmin || isMod) console.log("access granted");
 0
 0n
 NaN
+undefined
+null
+false
 
+other than these values all of the other values are truthy
 ```
+

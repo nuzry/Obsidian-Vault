@@ -103,3 +103,24 @@ while (x < 5) { console.log("never runs"); }
 do { console.log("runs once"); } while (x < 5);
 ```
 
+#### JS Error Handling
+
+- **`try`** → wraps code that might fail
+- **`catch`** → handles the error gracefully; receives the **error object**
+- **`finally`** → always runs regardless of error; good for **cleanup**
+- **`throw`** → manually trigger a custom error
+
+```js
+function divide(a, b) {
+  if (b === 0) throw new Error("Cannot divide by zero");
+  return a / b;
+}
+
+try {
+  console.log(divide(10, 0));
+} catch (err) {
+  console.log("Error:", err.message); // "Cannot divide by zero"
+} finally {
+  console.log("always runs"); // cleanup goes here
+}
+```

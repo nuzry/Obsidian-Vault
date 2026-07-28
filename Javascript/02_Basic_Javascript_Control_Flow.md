@@ -139,3 +139,32 @@ output:
 // this is the catch block error
 //Hey i am still here
 ```
+
+#### JS Switch Statement
+
+- Cleaner alternative to multiple `if...else` blocks when checking **one variable** against many values
+- **`default`** → fallback case, like `else`
+- **`break`** → stops execution from falling into the next case ⚠️
+
+```js
+const day = "Monday";
+
+switch (day) {
+  case "Monday":
+    console.log("Start of the week");
+    break;
+  case "Friday":
+    console.log("End of the week");
+    break;
+  default:
+    console.log("Midweek day");
+}
+
+// Without break → "fall-through" (usually a bug)
+switch (day) {
+  case "Monday":
+    console.log("Monday");  // runs
+  case "Friday":
+    console.log("Friday");  // also runs unintentionally!
+}
+```

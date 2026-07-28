@@ -20,18 +20,6 @@ a === a  // true
 
 - `if` requires condition in `()`; chain with `else if` / `else`
 - JS has **7 falsy values** → everything else is truthy
-- `false`, `0`, `""`, `null`, `undefined`, `NaN`, `0n`
-- Use `&&`, `||`, `!` to combine or negate conditions
-
-```js
-// Falsy check
-if (!value) console.log("falsy!");
-
-// Combining conditions
-if (age >= 18 && hasID) console.log("entry allowed");
-if (isAdmin || isMod) console.log("access granted");
-```
-- Falsy values in javascript
 ```js
 ""
 0
@@ -40,15 +28,9 @@ NaN
 undefined
 null
 false
-
-other than these values all of the other values are truthy
 ```
 
-#### JS If Statements & Truthy/Falsy
-
-- `if` requires condition in `()`; chain with `else if` / `else`
-- JS has **7 falsy values** → everything else is truthy
-  - `false`, `0`, `""`, `null`, `undefined`, `NaN`, `0n`
+- `false`, `0`, `""`, `null`, `undefined`, `NaN`, `0n`
 - Use `&&`, `||`, `!` to combine or negate conditions
 
 | Operator | Name | Description |

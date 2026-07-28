@@ -44,3 +44,24 @@ false
 other than these values all of the other values are truthy
 ```
 
+#### JS If Statements & Truthy/Falsy
+
+- `if` requires condition in `()`; chain with `else if` / `else`
+- JS has **7 falsy values** → everything else is truthy
+  - `false`, `0`, `""`, `null`, `undefined`, `NaN`, `0n`
+- Use `&&`, `||`, `!` to combine or negate conditions
+
+| Operator | Name | Description |
+|----------|------|-------------|
+| `&&` | AND | true only if **both** sides are true |
+| `\|\|` | OR | true if **at least one** side is true |
+| `!` | NOT | **flips** the boolean value |
+
+```js
+// Falsy check
+if (!value) console.log("falsy!");
+
+// Combining conditions
+if (age >= 18 && hasID) console.log("entry allowed");
+if (isAdmin || isMod) console.log("access granted");
+```****

@@ -23,7 +23,10 @@ console.log(result); // undefined → callback hasn't run yet!
 // Real-world pattern (file read, network request)
 fs.readFile("data.txt",'utf-8')
     .then(content => {
-    
+	    console.log(content);
+    })
+    .catch(err =>{
+	    console.log(err)
     })
     console.log(content); // ✅ use result here, inside callback
 });

@@ -1,5 +1,5 @@
 
-### Facts about Js
+### [[Facts about Js]]
 
 - Js can be used to develop *web-apps*, *desktop apps* and *mobile apps*.
 - Js can be used to develop *client-side* and *server-side* development.
@@ -9,7 +9,7 @@
 - *NoSQL* databases are popular in javascript development, allows to store *Js Objects* (*MongoDB*)
 
 
-### Table of React Libraries and frameworks 
+### [[Table of React Libraries and frameworks]] 
 
 | Name             | type      | usecase         |
 | ---------------- | --------- | --------------- |
@@ -22,7 +22,7 @@
 | **React-Native** | Framework | Mobile-app dev  |
 | **ElectronJS**   | Framework | Desktop-app dev |
 
-### Language Features
+### [[Language Features]]
 
 - *No compilation of code* in to *bytecode* before execution
 - *JS runtime reads* the actual JS code that we write to execute the code
@@ -34,7 +34,7 @@
 - JS is *single-threaded* meaning one operation at a time.
 - Processing large amounts of data is not good with JS
 
-### Pros & Cons
+### [[Pros & Cons]]
 
  - Popular
  - npm library support
@@ -49,7 +49,7 @@
 - Not the best for OOP.
 - evolves quickly
 
-### Versions in JS
+### [[Versions in JS]]
 
 -  JS has large number of runtime versions, the reason is being different browsers uses their own JS runtime so some features wont work in some and and works in some.
 - Due to the above problem ECMAScript specification came where it sets of language features that a runtime must have in order to be **ES6**, **ES7**, **ES7**.
@@ -60,7 +60,7 @@
 - **CoffeeScript** used for syntax shortcut or simplification for Js syntax
 - There are other Js Dialects of Js like **elm, LogicJS and Dart** for different use cases.
 
-### Basic Syntax 
+### [[Basic Syntax]]
 
 **Statement in JS**
 ```js

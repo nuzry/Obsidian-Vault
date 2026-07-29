@@ -64,3 +64,45 @@ fetchUser()
 | `.then()`    | promise **resolved** ✅        |
 | `.catch()`   | promise **rejected** ❌        |
 | `.finally()` | always, regardless of outcome |
+
+## JS Async/Await
+
+- Syntactic sugar for promises → same behavior, cleaner syntax
+- `await` → pauses execution inside the function until promise resolves
+- `async` → required on any function that uses `await`
+- Use `try/catch/finally` instead of `.then()/.catch()/.finally()`
+- ⚠️ Code after `await` still runs asynchronously → not truly synchronous
+
+```js
+function fetchData() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => resolve("Data loaded!"), 1000);
+    });
+}
+
+// Promises way
+fetchData()
+    .then(data => console.log(data))
+    .catch(err => console.log(err))
+    .finally(() => console.log("Done!"));
+
+// Async/await way (same behavior, cleaner)
+async function execute() {
+    try {
+        const data = await fetchData(); // waits for promise to resolve
+        console.log(data);             // "Data loaded!"
+    } catch (err) {
+        console.log(err);              // runs if rejected
+    } finally {
+        console.log("Done!");          // always runs
+    }
+}
+
+execute(); // kick off async function (no await needed at top level)
+```
+
+| Promises | Async/Await |
+|----------|-------------|
+| `.then()` | `await` |
+| `.catch()` | `catch` block |
+| `.finally()` | `finally` block |

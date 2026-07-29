@@ -61,6 +61,11 @@ const read = new Promise((resolve,reject)=>{
 read.then(data => {
     console.log(data)
 })
+
+const read = async () =>{\
+	
+}
+
 ```
 
 ### Chaining Promises

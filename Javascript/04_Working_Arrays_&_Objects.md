@@ -27,24 +27,24 @@ console.log(person.name); // "Sam" → original unchanged
 
 #### JS Built-in Array Functions
 
-| Function                 | Mutates? | Description                                              |
-| ------------------------ | -------- | -------------------------------------------------------- |
-| `push(el)`               | ✅        | adds element to **end**                                  |
-| `pop()`                  | ✅        | removes element from **end**                             |
-| `splice(i, n, ...items)` | ✅        | remove/insert at any index                               |
-| `indexOf(el)`            | ❌        | returns index of element, `-1` if not found              |
-| `find(fn)`               | ❌        | returns **first** element where `fn` returns true        |
-| `filter(fn)`             | ❌        | returns **all** elements where `fn` returns true         |
-| `map(fn)`                | ❌        | transforms each element, returns new array               |
-| `sort(fn)`               | ✅        | sorts array in place; pass compare `fn` for custom order |
-| `reduce(fn, init)`       | ❌        | reduces array to a **single value** (e.g. sum)           |
+| Function                  | Mutates? | Description                                              |
+| ------------------------- | -------- | -------------------------------------------------------- |
+| `push(el)`                | ✅        | adds element to **end**                                  |
+| `pop()`                   | ✅        | removes element from **end**                             |
+| `splice(st, n, ...items)` | ✅        | remove/insert at any index                               |
+| `indexOf(el)`             | ❌        | returns index of element, `-1` if not found              |
+| `find(fn)`                | ❌        | returns **first** element where `fn` returns true        |
+| `filter(fn)`              | ❌        | returns **all** elements where `fn` returns true         |
+| `map(fn)`                 | ❌        | transforms each element, returns new array               |
+| `sort(fn)`                | ✅        | sorts array in place; pass compare `fn` for custom order |
+| `reduce(fn, init)`        | ❌        | reduces array to a **single value** (e.g. sum)           |
 
 ```js
 const nums = [1, 2, 3, 4, 5, 6];
 
 nums.push(7);                         // [1,2,3,4,5,6,7]
 nums.pop();                           // removes 7
-nums.splice(1, 1, 99);                // replace index 1 → [1,99,3,4,5,6]
+nums.splice(1, 1, 99);                // replace index 1 → [1,99,3,4,5,6]  
 nums.indexOf(4);                      // 3
 nums.find(x => x > 4);               // 5 (first match)
 nums.filter(x => x % 2 === 0);       // [2,4,6]

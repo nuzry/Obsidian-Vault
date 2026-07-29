@@ -26,7 +26,10 @@ console.log(person.name); // "Sam" → original unchanged
 
 //JSON parse & stringify
 let obj = {name: "nusry", age: 22}
-console.log(JSON.stringify(obj)) //'{"name": "nusry", "age": "22"}'
+console.log(JSON.stringify(obj)) //'{"name": "nusry", "age": 22}'
+
+let obj = '{"name": "nusry", "age": "22"}'
+console.log(JSON.stringify(obj)) //'{"name": "nusry", "age": 22}'
 ```
 
 #### JS Built-in Array Functions

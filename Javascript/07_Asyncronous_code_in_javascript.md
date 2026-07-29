@@ -67,7 +67,7 @@ const read = async () =>{
  return content
 }
 
-
+await console.log(read())
 
 ```
 

@@ -59,8 +59,8 @@ fetchUser()
     .catch(error => console.log(error)); // catches any error in chain
 ```
 
-| Method | Triggered when |
-|--------|---------------|
-| `.then()` | promise **resolved** ✅ |
-| `.catch()` | promise **rejected** ❌ |
+| Method       | Triggered when                |
+| ------------ | ----------------------------- |
+| `.then()`    | promise **resolved** ✅        |
+| `.catch()`   | promise **rejected** ❌        |
 | `.finally()` | always, regardless of outcome |

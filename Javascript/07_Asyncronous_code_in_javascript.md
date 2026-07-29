@@ -101,8 +101,8 @@ async function execute() {
 execute(); // kick off async function (no await needed at top level)
 ```
 
-| Promises | Async/Await |
-|----------|-------------|
-| `.then()` | `await` |
-| `.catch()` | `catch` block |
+| Promises     | Async/Await     |
+| ------------ | --------------- |
+| `.then()`    | `await`         |
+| `.catch()`   | `catch` block   |
 | `.finally()` | `finally` block |

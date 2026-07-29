@@ -57,3 +57,4 @@ greet("Sam", 25, false);        // { name: "Sam", age: 25, active: false }
 // ⚠️ null/false/0 do NOT trigger defaults
 greet(null, 0, false);          // { name: null, age: 0, active: false }
 ```
+

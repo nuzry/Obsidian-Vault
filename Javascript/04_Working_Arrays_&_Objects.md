@@ -24,12 +24,13 @@ const copy = Object.assign({}, person);
 copy.name = "Jane";
 console.log(person.name); // "Sam" → original unchanged
 
-//JSON parse & stringify
+//JSON stringify
 let obj = {name: "nusry", age: 22}
 console.log(JSON.stringify(obj)) //'{"name": "nusry", "age": 22}'
 
+//JSON parse
 let obj = '{"name": "nusry", "age": "22"}'
-console.log(JSON.stringify(obj)) //'{"name": "nusry", "age": 22}'
+console.log(JSON.parse(obj)) //{name: "nusry", age: 22}
 ```
 
 #### JS Built-in Array Functions

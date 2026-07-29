@@ -62,9 +62,12 @@ read.then(data => {
     console.log(data)
 })
 
-const read = async () =>{\
-	
+const read = async () =>{
+ const content = await fs.readFile('text.txt', 'utf-8')
+ return content
 }
+
+
 
 ```
 

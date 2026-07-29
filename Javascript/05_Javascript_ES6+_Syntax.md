@@ -122,3 +122,25 @@ const [x, y, z] = nums; // x=1, y=2, z=3
 // Skip elements
 const [first, , third] = nums; // first=1, third=3
 ```
+
+
+#### JS Template Literals
+
+- Use backticks ` `` ` to define strings with embedded expressions
+- Insert any JS expression using `${}`
+- Cleaner alternative to `+` concatenation
+
+```js
+const name = "Sam";
+const age = 25;
+
+// Old way
+"Hi, I'm " + name + " and I'm " + age;
+
+// Template literal
+`Hi, I'm ${name} and I'm ${age}`;
+
+// Any expression works inside ${}
+`2 + 2 = ${2 + 2}`;           // "2 + 2 = 4"
+`Adult: ${age >= 18 ? "yes" : "no"}`; // "Adult: yes"
+```

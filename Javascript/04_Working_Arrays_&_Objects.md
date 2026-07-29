@@ -31,7 +31,7 @@ console.log(person.name); // "Sam" → original unchanged
 | ------------------------- | -------- | -------------------------------------------------------- |
 | `push(el)`                | ✅        | adds element to **end**                                  |
 | `pop()`                   | ✅        | removes element from **end**                             |
-| `splice(st, n, ...items)` | ✅        | remove/insert at any index                               |
+| `splice(st, del, ...rem)` | ✅        | remove/insert at any index                               |
 | `indexOf(el)`             | ❌        | returns index of element, `-1` if not found              |
 | `find(fn)`                | ❌        | returns **first** element where `fn` returns true        |
 | `filter(fn)`              | ❌        | returns **all** elements where `fn` returns true         |

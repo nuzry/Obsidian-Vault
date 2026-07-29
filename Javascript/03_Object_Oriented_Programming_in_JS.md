@@ -1,4 +1,4 @@
-#### JS Classes
+#### [[JS Classes]]
 
 - `class` → defines a class; `constructor` → sets up properties; `new` → creates an instance
 - No true private variables yet → prefix with `_` by convention (e.g. `_password`)

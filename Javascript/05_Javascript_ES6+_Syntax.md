@@ -87,4 +87,38 @@ const nums = [1, 2, 3];
 add(...nums); // 6
 ```
 
+#### JS Destructuring
 
+##### Object Destructuring
+- Extract object properties into variables cleanly
+- Supports **defaults**, **renaming**, and **nested** properties
+
+```js
+const person = { name: "Sam", age: 25, body: { height: 180, weight: 75 } };
+
+// Basic
+const { name, age } = person;
+
+// Default value
+const { eyeColor = "unknown" } = person; // "unknown" if missing
+
+// Rename variable
+const { name: fullName } = person; // fullName = "Sam"
+
+// Rename + default
+const { name: n = "stranger" } = person;
+
+// Nested
+const { body: { height, weight } } = person; // height=180, weight=75
+```
+
+##### Array Destructuring
+- Assigns elements by **position**
+
+```js
+const nums = [1, 2, 3];
+const [x, y, z] = nums; // x=1, y=2, z=3
+
+// Skip elements
+const [first, , third] = nums; // first=1, third=3
+```

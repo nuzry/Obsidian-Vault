@@ -52,6 +52,15 @@ myPromise
     .then(message => console.log(message))  // "Data loaded!" if resolved
     .catch(error => console.log(error))     // "Something went wrong!" if rejected
     .finally(() => console.log("Done!"));   // always runs
+    
+import * as fs from 'fs/promises'
+const read = new Promise((resolve,reject)=>{
+    resolve(fs.readFile('text.txt','utf-8'))
+})
+
+read.then(data => {
+    console.log(data)
+})
 ```
 
 ### Chaining Promises

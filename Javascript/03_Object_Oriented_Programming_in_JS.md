@@ -37,7 +37,7 @@ console.log(emp instanceof Employee); // true
 console.log(emp instanceof Person);   // true
 ```
 
-#### [[JS Prototype-Based Inheritance
+#### [[JS Prototype-Based Inheritance]]
 
 - JS **doesn't have real classes** → `class` syntax is just syntactic sugar for prototypes
 - Instead of classes & instances → JS uses **prototypes & children**
@@ -46,7 +46,7 @@ console.log(emp instanceof Person);   // true
 - **Own properties** → set directly on the object (show in console)
 - **Inherited properties** → come from prototype (hidden in console, but accessible)
 
-### Prototype Chain
+#### [[Prototype Chain]]
 When accessing a property, JS looks:
 1. Object itself → 2. Its prototype → 3. Prototype's prototype → ... → 4. Base `Object` prototype → `null`
 

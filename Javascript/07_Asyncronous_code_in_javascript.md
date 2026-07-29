@@ -21,11 +21,10 @@ setTimeout(() => {
 console.log(result); // undefined → callback hasn't run yet!
 
 // Real-world pattern (file read, network request)
-readFile("data.txt", (error, content) => {
-    if (error) {
-        console.log("Error:", error);
-        return;
-    }
+fs.readFile("data.txt",'utf-8')
+    .then(content => {
+    
+    })
     console.log(content); // ✅ use result here, inside callback
 });
 ```

@@ -72,7 +72,7 @@ employee.greet();        // "Hi, I'm John" (back to prototype)
 Object.getPrototypeOf(employee) === person; // true
 ```
 
-#### [[JS `this` Keyword
+#### [[JS `this` Keyword]]
 
 - `this` refers to the **current execution context** (where it's called from, not where it's defined)
 - Inside an **object method** → `this` = the object

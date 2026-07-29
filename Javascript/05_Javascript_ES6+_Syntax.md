@@ -86,3 +86,5 @@ const add = (a, b, c) => a + b + c;
 const nums = [1, 2, 3];
 add(...nums); // 6
 ```
+
+![[Pasted image 20260729153910.png]]

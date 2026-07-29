@@ -58,3 +58,31 @@ greet("Sam", 25, false);        // { name: "Sam", age: 25, active: false }
 greet(null, 0, false);          // { name: null, age: 0, active: false }
 ```
 
+#### JS Spread Operator (`...`)
+
+- **Combine objects** → later keys override earlier ones on conflicts
+- **Combine arrays** → no overriding, just merges elements
+- **Rest params** → collect remaining function args into an array
+- **Spread into function** → pass array elements as individual arguments
+
+```js
+const a = { x: 1, z: 99 };
+const b = { y: 2, z: 42 };
+
+// Combine objects → b's z overrides a's z
+const merged = { ...a, ...b, w: 3 }; // { x:1, z:42, y:2, w:3 }
+
+// Combine arrays
+const arr1 = [1, 2];
+const arr2 = [3, 4];
+const combined = [...arr1, 99, ...arr2]; // [1, 2, 99, 3, 4]
+
+// Rest params → collect extra args as array
+const fn = (first, ...rest) => console.log(first, rest);
+fn(1, 2, 3, 4); // first=1, rest=[2,3,4]
+
+// Spread into function → pass array as individual args
+const add = (a, b, c) => a + b + c;
+const nums = [1, 2, 3];
+add(...nums); // 6
+```

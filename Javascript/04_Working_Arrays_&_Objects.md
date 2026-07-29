@@ -23,6 +23,10 @@ console.log(person); // { name: "Sam", age: 30, role: "Dev" } → age overridden
 const copy = Object.assign({}, person);
 copy.name = "Jane";
 console.log(person.name); // "Sam" → original unchanged
+
+//JSON parse & stringify
+let obj = {name: "nusry", age: 22}
+console.log()
 ```
 
 #### JS Built-in Array Functions

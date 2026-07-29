@@ -21,16 +21,16 @@ setTimeout(() => {
 console.log(result); // undefined → callback hasn't run yet!
 
 // Real-world pattern (file read, network request)
-fs.readFile("data.txt",'utf-8')
-    .then(content => {
-	    console.log(content);
-	    return content
-    })
-    .catch(err =>{
-	    console.log(err)
-    })
-    console.log(content); // ✅ use result here, inside callback
-});
+import * as fs from "fs/promises";
+fs.readFile("text.txt",'utf-8')
+    .then(content => {
+        console.log(content);
+        return content
+    })
+    .catch(err =>{
+        console.log(err)
+    })
+console.log("I am here")
 ```
 
 ## JS Promises

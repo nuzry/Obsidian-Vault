@@ -1,3 +1,4 @@
+[[Javascript]]
 #### [[JS Classes]]
 
 - `class` → defines a class; `constructor` → sets up properties; `new` → creates an instance

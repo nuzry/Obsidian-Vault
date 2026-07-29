@@ -1,4 +1,4 @@
-
+[[Javascript]]
 ### [[Facts about Js]]
 
 - Js can be used to develop *web-apps*, *desktop apps* and *mobile apps*.

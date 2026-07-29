@@ -1,3 +1,4 @@
+[[Javascript]]
 #### Equality in Javascript
 
 - `===` checks **value + type** → preferred

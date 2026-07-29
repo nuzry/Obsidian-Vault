@@ -144,3 +144,41 @@ const age = 25;
 `2 + 2 = ${2 + 2}`;           // "2 + 2 = 4"
 `Adult: ${age >= 18 ? "yes" : "no"}`; // "Adult: yes"
 ```
+
+
+#### JS Import & Export (ES6)
+
+##### Exporting
+```js
+// Default export (one per file)
+export default myFunction;
+
+// Named exports (multiple per file)
+export const myString = "hello";
+export function myFunc() {}
+```
+
+##### Importing
+```js
+// Default import
+import myFunc from "./myFile";
+
+// Named imports
+import { myString, myFunc } from "./myFile";
+
+// Import everything (namespace)
+import * as utils from "./myFile";
+utils.myFunc();
+utils.myString;
+
+// Import default + named together
+import myFunc, { myString } from "./myFile";
+```
+
+##### Key Notes
+- Named imports must use the **same name** as the export
+- Import namespace (`* as`) useful for files with many exports
+- Works with **npm packages** too → use package name instead of file path
+```js
+import _ from "lodash"; // npm package
+```

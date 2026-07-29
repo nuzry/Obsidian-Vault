@@ -52,3 +52,4 @@ nums.map(x => x * 2);                // [2,4,6,8,10,12]
 nums.sort((a, b) => b - a);          // [6,5,4,3,2,1] (descending)
 nums.reduce((sum, x) => sum + x, 0); // 21
 ```
+

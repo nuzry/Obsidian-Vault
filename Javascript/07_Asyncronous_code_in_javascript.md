@@ -29,3 +29,38 @@ readFile("data.txt", (error, content) => {
     console.log(content); // ✅ use result here, inside callback
 });
 ```
+
+## JS Promises
+
+- Cleaner alternative to nested callbacks ("callback hell")
+- A promise has 3 states: **pending** → **fulfilled** or **rejected**
+- Chain `.then()` → `.catch()` → `.finally()` for readable async flow
+
+```js
+const myPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        const success = true;
+        if (success) resolve("Data loaded!");
+        else reject("Something went wrong!");
+    }, 1000);
+});
+
+myPromise
+    .then(message => console.log(message))  // "Data loaded!" if resolved
+    .catch(error => console.log(error))     // "Something went wrong!" if rejected
+    .finally(() => console.log("Done!"));   // always runs
+```
+
+### Chaining Promises
+```js
+fetchUser()
+    .then(user => fetchPosts(user.id))   // waits for fetchUser
+    .then(posts => fetchComments(posts)) // waits for fetchPosts
+    .catch(error => console.log(error)); // catches any error in chain
+```
+
+| Method | Triggered when |
+|--------|---------------|
+| `.then()` | promise **resolved** ✅ |
+| `.catch()` | promise **rejected** ❌ |
+| `.finally()` | always, regardless of outcome |

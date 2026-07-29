@@ -71,3 +71,36 @@ employee.greet();        // "Hi, I'm John" (back to prototype)
 // Check prototype
 Object.getPrototypeOf(employee) === person; // true
 ```
+
+#### [[JS `this` Keyword
+
+- `this` refers to the **current execution context** (where it's called from, not where it's defined)
+- Inside an **object method** → `this` = the object
+- Called **alone** (no object) → `this` = global context ⚠️
+- With **`new`** keyword → `this` = the new instance being created
+
+```js
+function introduce() {
+  return `Hi, I'm ${this.name}`;
+}
+
+// Called alone → this = global (this.name is undefined)
+introduce(); // "Hi, I'm undefined"
+
+// Assigned to object → this = person
+const person = { name: "Sam", introduce };
+person.introduce(); // "Hi, I'm Sam"
+
+// Called with new → this = new instance
+function Car(make, color) {
+  this.make = make;
+  this.color = color;
+}
+const myCar = new Car("Chevy", "gray");
+console.log(myCar.make);  // "Chevy"
+console.log(myCar.color); // "gray"
+
+// ⚠️ Without new → sets global variables (avoid this)
+Car("Toyota", "red");
+console.log(globalThis.make); // "Toyota" (pollutes global scope)
+```

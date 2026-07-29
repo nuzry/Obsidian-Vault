@@ -24,6 +24,7 @@ console.log(result); // undefined → callback hasn't run yet!
 fs.readFile("data.txt",'utf-8')
     .then(content => {
 	    console.log(content);
+	    return content
     })
     .catch(err =>{
 	    console.log(err)

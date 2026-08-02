@@ -1,6 +1,6 @@
 # Determinants of Passenger Demand in Sri Lanka's Civil Aviation Sector
 
-  
+  This is a sample text
 
 Passenger demand is one of the most important indicators influencing the performance and sustainability of the civil aviation industry. It determines airline profitability, airport capacity utilization, infrastructure investments, and the effectiveness of transportation planning. For an island nation such as Sri Lanka, where international connectivity plays a significant role in tourism, trade, and economic development, understanding the factors that influence passenger demand is essential for evidence-based decision-making. The Civil Aviation Authority of Sri Lanka, Airport and Aviation Services (Sri Lanka) Ltd., and commercial airlines require reliable statistical evidence to forecast future passenger volumes and optimize operational strategies. The present analysis investigates the key determinants of passenger demand using the Air_Transport_Data.csv dataset, which consists of 200 observations representing air transport routes and operational characteristics.
 

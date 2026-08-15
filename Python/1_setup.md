@@ -1,3 +1,5 @@
 - I installed python
 - added to system variables the environment variables
-- 
+- created folder with my project
+- in the terminal run the command `python -m venv .venv`
+- It intalled a python environment 

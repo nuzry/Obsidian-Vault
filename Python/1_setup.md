@@ -1,2 +1,3 @@
-I installed python
-added to system varialbes the environement varialbes
+- I installed python
+- added to system variables the environment variables
+- 

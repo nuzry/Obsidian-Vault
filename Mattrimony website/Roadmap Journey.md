@@ -10,4 +10,5 @@
   - Spring Web - Used this dependency for HTTP server, request routing and JSON conversion
   - Spring Data JPA - SQL Queries, database connection pooling and object mapping
   - PostgreSQL Driver - Raw TCP protocol to talk to PostgreSQL
-  - Lombok - 
+  - Lombok - Hundreds of getter/setter/constructor methods by hand
+  - DevTools - Manually restart the app on every code change

@@ -8,4 +8,6 @@
 ![[Pasted image 20260912130708.png]]
 
   - Spring Web - Used this dependency for HTTP server, request routing and JSON conversion
-  - Spring Data JPA - SQL Queries
+  - Spring Data JPA - SQL Queries, database connection pooling and object mapping
+  - PostgreSQL Driver - Raw TCP protocol to talk to PostgreSQL
+  - Lombok - 

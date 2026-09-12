@@ -28,3 +28,5 @@
 ![[Pasted image 20260912132313.png]]
 
 5. Next i started creating models of entities that will help me to map database structure when saving and retrieving data from the db.
+![[Pasted image 20260912133509.png]]
+ - 

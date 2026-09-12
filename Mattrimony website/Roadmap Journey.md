@@ -19,4 +19,7 @@
  - connected the database to the project with the these values that creates a connection between  the project and the db.
 
 3. Designing the Database Schema
-4. 
+
+![[diagram.mattrimony.drawio.png]]
+
+ - Spent a good amount of time refining the schema to avoid any changes after starting the project buil.

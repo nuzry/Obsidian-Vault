@@ -7,4 +7,4 @@
 2. Added all the dependencies for the project
 ![[Pasted image 20260912130708.png]]
 
-  
+  - Spring Web - Used this dependency for 

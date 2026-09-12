@@ -22,4 +22,8 @@
 
 ![[diagram.mattrimony.drawio.png]]
 
- - Spent a good amount of time refining the schema to avoid any changes after starting the project buil.
+ - Spent a good amount of time refining the schema to avoid any changes after starting the project build.
+
+4. As the next step of the project i started with creating ENUMs that are going to be needed to the project with there values.
+![[Pasted image 20260912132313.png]]
+

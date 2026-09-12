@@ -13,5 +13,10 @@
   - Lombok - Hundreds of getter/setter/constructor methods by hand
   - DevTools - Manually restart the app on every code change
 
-2. Connected the database
+3. Connected the database
 ![[Pasted image 20260912131957.png]]
+
+ - connected the database to the project with the these values that creates a connection between  the project and the db.
+
+3. Designing the Database Schema
+4. 

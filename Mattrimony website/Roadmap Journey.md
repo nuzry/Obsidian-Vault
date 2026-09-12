@@ -13,3 +13,5 @@
   - Lombok - Hundreds of getter/setter/constructor methods by hand
   - DevTools - Manually restart the app on every code change
 
+2. Connected the database
+![[Pasted image 20260912131957.png]]

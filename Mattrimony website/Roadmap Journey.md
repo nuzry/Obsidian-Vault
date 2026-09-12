@@ -27,3 +27,4 @@
 4. As the next step of the project i started with creating ENUMs that are going to be needed to the project with there values.
 ![[Pasted image 20260912132313.png]]
 
+5. Next i started creating models of entities that will help me to map database structure when saving and retrieving data from the db.

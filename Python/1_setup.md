@@ -3,5 +3,5 @@
 - created folder with my project
 - in the terminal run the command `python -m venv .venv`
 - It intalled a python environment seperate from the global
-- then i ran `.\.venv\Scripts\Activate.ps1` which activates the py environemetn
+- then i ran `.\.venv\Scripts\Activate.ps1` which activates the py environement
 - then i created a main.py file and ran the file and it printed Hello World :) `python .\main.py`
